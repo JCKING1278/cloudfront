@@ -3,20 +3,27 @@ layout: default
 ---
 
 <article class="store">
-  <h1>{{ page.name }}</h1>
-  <p class="tagline">{{ page.tagline }}</p>
+  <div class="store-header">
+    {% if page.image %}
+    <div class="store-image">
+      <img src="{{ site.baseurl }}/assets/images/{{ page.image }}" alt="{{ page.name }}">
+    </div>
+    {% endif %}
+    <h1>{{ page.name }}</h1>
+    <p class="tagline">{{ page.tagline }}</p>
+  </div>
   
   <div class="store-details">
+    {% if page.description %}
+    <p><strong>About:</strong> {{ page.description }}</p>
+    {% endif %}
     {% if page.website %}
     <p><strong>Website:</strong> <a href="{{ page.website }}" target="_blank">{{ page.website }}</a></p>
     {% endif %}
     {% if page.email %}
-    <p><strong>Email:</strong> <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
-    {% endif %}
-    {% if page.description %}
-    <p><strong>About:</strong> {{ page.description }}</p>
+    <p><strong>Contact:</strong> <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
     {% endif %}
   </div>
   
-  <a href="{{ site.baseurl }}/stores/" class="back-link">&larr; Back to all stores</a>
+  <a href="{{ site.baseurl }}/stores/" class="back-link">&lt;&lt; BACK TO INDEX</a>
 </article>

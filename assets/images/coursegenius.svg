@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect fill="#1a1409" width="400" height="200"/>
+  <rect fill="#2d2416" x="10" y="10" width="380" height="180" rx="5"/>
+  <text x="200" y="55" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">COURSE</text>
+  <text x="200" y="75" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">GENIUS</text>
+  <text x="200" y="100" font-family="monospace" font-size="10" fill="#f5f5dc" text-anchor="middle">[ BUILD IN 24HRS ]</text>
+  <rect x="80" y="115" width="240" height="50" fill="#1a1409" stroke="#ffb000" stroke-width="2"/>
+  <text x="200" y="130" font-family="monospace" font-size="8" fill="#ffb000" text-anchor="middle">SLIDES</text>
+  <rect x="90" y="135" width="30" height="25" fill="#ffb000"/>
+  <rect x="130" y="135" width="30" height="25" fill="#ffb000" opacity="0.7"/>
+  <rect x="170" y="135" width="30" height="25" fill="#ffb000" opacity="0.5"/>
+  <rect x="210" y="135" width="30" height="25" fill="#ffb000" opacity="0.3"/>
+  <rect x="250" y="135" width="30" height="25" fill="#ffb000" opacity="0.1"/>
+  <text x="200" y="175" font-family="monospace" font-size="8" fill="#556b2f" text-anchor="middle">PASSIVE INCOME</text>
+</svg>

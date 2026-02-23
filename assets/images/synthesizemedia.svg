@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect fill="#1a1409" width="400" height="200"/>
+  <rect fill="#2d2416" x="10" y="10" width="380" height="180" rx="5"/>
+  <text x="200" y="55" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">SYNTHESIZE</text>
+  <text x="200" y="75" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">MEDIA</text>
+  <text x="200" y="100" font-family="monospace" font-size="10" fill="#f5f5dc" text-anchor="middle">VIDEO GENERATION</text>
+  <rect x="100" y="115" width="200" height="45" fill="#1a1409" stroke="#ffb000" stroke-width="2"/>
+  <rect x="110" y="125" width="60" height="25" fill="#ffb000" opacity="0.8"/>
+  <ellipse cx="200" cy="137" rx="25" ry="12" fill="#f5f5dc" opacity="0.6"/>
+  <circle cx="255" cy="137" r="10" fill="none" stroke="#ffb000" stroke-width="2"/>
+  <circle cx="255" cy="137" r="4" fill="#ffb000"/>
+  <text x="200" y="180" font-family="monospace" font-size="8" fill="#556b2f" text-anchor="middle">10X FASTER</text>
+</svg>

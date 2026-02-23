@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect fill="#1a1409" width="400" height="200"/>
+  <rect fill="#2d2416" x="10" y="10" width="380" height="180" rx="5"/>
+  <text x="200" y="60" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">BEAT</text>
+  <text x="200" y="80" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">MACHINE</text>
+  <text x="200" y="110" font-family="monospace" font-size="10" fill="#f5f5dc" text-anchor="middle">♪ AI MUSIC GENERATOR ♪</text>
+  <rect x="80" y="125" width="240" height="30" fill="#1a1409" stroke="#ffb000" stroke-width="2"/>
+  <line x1="100" y1="140" x2="130" y2="125" stroke="#ffb000" stroke-width="2"/>
+  <line x1="130" y1="140" x2="160" y2="140" stroke="#ffb000" stroke-width="2"/>
+  <line x1="160" y1="140" x2="190" y2="130" stroke="#ffb000" stroke-width="2"/>
+  <line x1="190" y1="140" x2="220" y2="145" stroke="#ffb000" stroke-width="2"/>
+  <line x1="220" y1="140" x2="250" y2="135" stroke="#ffb000" stroke-width="2"/>
+  <line x1="250" y1="140" x2="280" y2="140" stroke="#ffb000" stroke-width="2"/>
+  <line x1="280" y1="140" x2="300" y2="125" stroke="#ffb000" stroke-width="2"/>
+  <text x="200" y="180" font-family="monospace" font-size="8" fill="#556b2f" text-anchor="middle">CHART-READY TRACKS</text>
+</svg>

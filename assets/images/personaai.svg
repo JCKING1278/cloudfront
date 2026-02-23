@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect fill="#1a1409" width="400" height="200"/>
+  <rect fill="#2d2416" x="10" y="10" width="380" height="180" rx="5"/>
+  <text x="200" y="55" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">PERSONA</text>
+  <text x="200" y="75" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">AI</text>
+  <text x="200" y="100" font-family="monospace" font-size="10" fill="#f5f5dc" text-anchor="middle">AI INFLUENCERS</text>
+  <circle cx="150" cy="140" r="25" fill="#1a1409" stroke="#ffb000" stroke-width="2"/>
+  <circle cx="150" cy="135" r="8" fill="#ffb000"/>
+  <text x="150" y="155" font-family="monospace" font-size="8" fill="#ffb000" text-anchor="middle">@AI</text>
+  <circle cx="200" cy="140" r="25" fill="#1a1409" stroke="#ffb000" stroke-width="2"/>
+  <circle cx="200" cy="135" r="8" fill="#ffb000"/>
+  <text x="200" y="155" font-family="monospace" font-size="8" fill="#ffb000" text-anchor="middle">@BOT</text>
+  <circle cx="250" cy="140" r="25" fill="#1a1409" stroke="#ffb000" stroke-width="2"/>
+  <circle cx="250" cy="135" r="8" fill="#ffb000"/>
+  <text x="250" y="155" font-family="monospace" font-size="8" fill="#ffb000" text-anchor="middle">@★</text>
+  <text x="200" y="185" font-family="monospace" font-size="8" fill="#556b2f" text-anchor="middle">100M+ FOLLOWERS</text>
+</svg>

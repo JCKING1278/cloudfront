@@ -11,6 +11,11 @@ title: Home
 <section class="stores-grid">
   {% for store in site.stores %}
   <a href="{{ store.url }}" class="store-card">
+    {% if store.image %}
+    <div class="store-card-image">
+      <img src="{{ site.baseurl }}/assets/images/{{ store.image }}" alt="{{ store.name }}">
+    </div>
+    {% endif %}
     <h2>{{ store.name }}</h2>
     <p class="tagline">{{ store.tagline }}</p>
     <span class="visit">Visit Store &rarr;</span>

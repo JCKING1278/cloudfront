@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect fill="#1a1409" width="400" height="200"/>
+  <rect fill="#2d2416" x="10" y="10" width="380" height="180" rx="5"/>
+  <text x="200" y="60" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">AGENT</text>
+  <text x="200" y="80" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">FLOW</text>
+  <text x="200" y="110" font-family="monospace" font-size="10" fill="#f5f5dc" text-anchor="middle">_AUTONOMOUS_</text>
+  <text x="200" y="130" font-family="monospace" font-size="10" fill="#f5f5dc" text-anchor="middle">_AGENTS_</text>
+  <rect x="50" y="150" width="300" height="2" fill="#ffb000"/>
+  <circle cx="100" cy="170" r="8" fill="#ffb000">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="130" cy="170" r="8" fill="#ffb000">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" begin="0.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="170" r="8" fill="#ffb000">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="200" y="175" font-family="monospace" font-size="8" fill="#556b2f" text-anchor="middle">PROCESSING</text>
+</svg>

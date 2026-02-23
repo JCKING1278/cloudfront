@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect fill="#1a1409" width="400" height="200"/>
+  <rect fill="#2d2416" x="10" y="10" width="380" height="180" rx="5"/>
+  <text x="200" y="55" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">QUANT</text>
+  <text x="200" y="75" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">EDGE AI</text>
+  <text x="200" y="100" font-family="monospace" font-size="10" fill="#f5f5dc" text-anchor="middle">[ TRADING ALGORITHMS ]</text>
+  <rect x="80" y="115" width="240" height="50" fill="#1a1409" stroke="#ffb000" stroke-width="2"/>
+  <polyline points="90,155 110,140 130,150 150,130 170,145 190,125 210,140 230,130 250,145 270,135 290,150 310,140" 
+            fill="none" stroke="#ffb000" stroke-width="2"/>
+  <text x="200" y="180" font-family="monospace" font-size="10" fill="#ffb000" text-anchor="middle">34% APY</text>
+</svg>

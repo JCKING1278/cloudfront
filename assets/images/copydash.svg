@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect fill="#1a1409" width="400" height="200"/>
+  <rect fill="#2d2416" x="10" y="10" width="380" height="180" rx="5"/>
+  <text x="200" y="60" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">COPY</text>
+  <text x="200" y="80" font-family="monospace" font-size="14" fill="#ffb000" text-anchor="middle">DASH</text>
+  <text x="200" y="110" font-family="monospace" font-size="10" fill="#f5f5dc" text-anchor="middle">COPYWRITER v1.0</text>
+  <rect x="60" y="125" width="280" height="40" fill="#1a1409" stroke="#ffb000" stroke-width="2"/>
+  <text x="200" y="145" font-family="monospace" font-size="10" fill="#ffb000" text-anchor="middle">"CONVERTS"</text>
+  <text x="200" y="160" font-family="monospace" font-size="8" fill="#f5f5dc" text-anchor="middle">1M+ CAMPAIGNS ANALYZED</text>
+  <text x="200" y="180" font-family="monospace" font-size="8" fill="#556b2f" text-anchor="middle">HIGH-CONVERTING COPY</text>
+</svg>
