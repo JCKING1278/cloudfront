@@ -1,7 +1,7 @@
 title: StoreFront
 description: Discover amazing stores
-baseurl: ""
-url: ""
+baseurl: "/cloudfront"
+url: "https://jcking1278.github.io"
 
 collections:
   stores:
