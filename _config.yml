@@ -1,0 +1,10 @@
+title: StoreFront
+description: Discover amazing stores
+baseurl: ""
+url: ""
+
+collections:
+  stores:
+    output: true
+
+permalink: /stores/:title/

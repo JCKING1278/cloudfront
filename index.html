@@ -1,0 +1,19 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <h1>Discover Amazing Stores</h1>
+  <p>A curated collection of incredible stores</p>
+</section>
+
+<section class="stores-grid">
+  {% for store in site.stores %}
+  <a href="{{ store.url }}" class="store-card">
+    <h2>{{ store.name }}</h2>
+    <p class="tagline">{{ store.tagline }}</p>
+    <span class="visit">Visit Store &rarr;</span>
+  </a>
+  {% endfor %}
+</section>

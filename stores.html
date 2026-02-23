@@ -1,0 +1,15 @@
+---
+layout: default
+title: All Stores
+---
+
+<h1>All Stores</h1>
+
+<div class="stores-list">
+  {% for store in site.stores %}
+  <div class="store-item">
+    <h2><a href="{{ store.url }}">{{ store.name }}</a></h2>
+    <p>{{ store.tagline }}</p>
+  </div>
+  {% endfor %}
+</div>
