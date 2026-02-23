@@ -13,6 +13,52 @@ layout: default
     <p class="tagline">{{ page.tagline }}</p>
   </div>
   
+  <div class="store-intro">
+    {{ content }}
+  </div>
+  
+  {% if page.features %}
+  <div class="features-section">
+    <h2>◆ ALL FEATURES (FREE FOREVER) ◆</h2>
+    <div class="features-grid">
+      {% for feature in page.features %}
+      <div class="feature-card">
+        <h3>{{ feature.name }}</h3>
+        <p>{{ feature.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  
+  {% if page.metrics %}
+  <div class="metrics-section">
+    <h2>◆ PROVEN RESULTS ◆</h2>
+    <ul class="metrics-list">
+      {% for metric in page.metrics %}
+      <li>★ {{ metric }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  
+  {% if page.steps %}
+  <div class="steps-section">
+    <h2>◆ HOW IT WORKS ◆</h2>
+    <ol class="steps-list">
+      {% for step in page.steps %}
+      <li>{{ step }}</li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endif %}
+  
+  {% if page.pricing_note %}
+  <div class="pricing-banner">
+    <p>{{ page.pricing_note }}</p>
+  </div>
+  {% endif %}
+  
   <div class="store-details">
     {% if page.description %}
     <p><strong>About:</strong> {{ page.description }}</p>
