@@ -709,12 +709,53 @@ footer::before {
   letter-spacing: 1px;
 }
 
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tool-card {
+  background: var(--brown-medium);
+  border: 2px solid var(--olive-green);
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.tool-card strong {
+  font-family: 'VT323', monospace;
+  color: var(--amber-glow);
+  font-size: 1.1rem;
+}
+
+.tool-card span {
+  color: var(--cream);
+  font-size: 0.85rem;
+}
+
+.tool-card em {
+  color: var(--olive-light);
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 0.5rem;
+}
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
   }
   
   .stores-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .knowledge-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .tools-grid {
     grid-template-columns: 1fr;
   }
   
