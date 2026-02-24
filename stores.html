@@ -1,15 +1,29 @@
 ---
 layout: default
-title: All Stores
+title: AI Tools
 ---
 
-<h1>All Stores</h1>
+<section class="hero">
+  <h1>AI Tools</h1>
+  <p>Free AI tools to earn money. No fees. No subscriptions. Keep 100%.</p>
+  <p class="hero-tagline">◆ All tools 100% free forever ◆</p>
+</section>
 
-<div class="stores-list">
+<section class="stores-grid">
   {% for store in site.stores %}
-  <div class="store-item">
-    <h2><a href="{{ store.url }}">{{ store.name }}</a></h2>
-    <p>{{ store.tagline }}</p>
-  </div>
+  <a href="{{ store.url }}" class="store-card">
+    {% if store.image %}
+    <div class="store-card-image">
+      <img src="{{ site.baseurl }}/assets/images/{{ store.image }}" alt="{{ store.name }}">
+    </div>
+    {% endif %}
+    <h2>{{ store.name }}</h2>
+    <p class="tagline">{{ store.tagline }}</p>
+    <span class="visit">ACCESS TOOL &rarr;</span>
+  </a>
   {% endfor %}
-</div>
+</section>
+
+<section class="cta-banner">
+  <p>◆ ALL TOOLS LISTED ARE 100% FREE - NO FEES, NO SUBSCRIPTIONS, KEEP 100% OF ALL EARNINGS ◆</p>
+</section>
