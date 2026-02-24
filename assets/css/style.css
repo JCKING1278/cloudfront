@@ -566,6 +566,62 @@ footer::before {
   letter-spacing: 2px;
 }
 
+.timeline-nav {
+  margin: 1.5rem 0;
+}
+
+.nav-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.nav-btn {
+  padding: 0.5rem 1rem;
+  background: var(--brown-medium);
+  border: 2px solid var(--amber-glow);
+  color: var(--amber-glow);
+  text-decoration: none;
+  font-family: 'VT323', monospace;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.nav-btn:hover {
+  background: var(--amber-glow);
+  color: var(--brown-dark);
+}
+
+.progress-section {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background: var(--brown-dark);
+  border: 2px solid var(--amber-glow);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--amber-glow), var(--olive-light));
+  transition: width 0.5s ease;
+}
+
+.progress-text {
+  color: var(--cream);
+  font-family: 'VT323', monospace;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
 .timeline-era {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
@@ -628,85 +684,80 @@ footer::before {
   color: var(--olive-light);
 }
 
-.timeline.future {
-  border-color: var(--olive-green);
+.comparison-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
 }
 
-.timeline.future h2 {
-  color: var(--olive-light);
-}
-
-.futureera {
-  border-color: var(--olive-green);
-}
-
-.prediction {
-  background: rgba(85, 107, 47, 0.2);
-  border: 2px dashed var(--olive-light);
-  padding: 0.75rem;
+.compare-col {
+  background: var(--brown-medium);
+  border: 2px solid var(--amber-glow);
   border-radius: 4px;
-  color: var(--cream);
+  padding: 1rem;
 }
 
-.prediction strong {
-  color: var(--olive-light);
-}
-
-.knowledge-footer {
-  margin-top: 2rem;
-  padding: 1.5rem;
-  background: var(--brown-dark);
-  border: 3px solid var(--amber-glow);
-  border-radius: 4px;
+.compare-col h4 {
+  font-family: 'VT323', monospace;
+  color: var(--amber-glow);
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
   text-align: center;
 }
 
-.knowledge-footer h2 {
-  font-family: 'VT323', monospace;
-  color: var(--amber-glow);
-  font-size: 1.4rem;
-  margin-bottom: 1.5rem;
-  letter-spacing: 2px;
+.compare-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.knowledge-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-bottom: 1.5rem;
+.compare-col li {
+  color: var(--cream);
+  font-size: 0.85rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px dashed var(--brown-light);
 }
 
-.knowledge-card {
-  background: var(--brown-medium);
-  border: 2px solid var(--amber-glow);
+.compare-col li:last-child {
+  border-bottom: none;
+}
+
+.compare-col.then {
+  border-color: var(--brown-light);
+}
+
+.compare-col.now {
+  border-color: var(--olive-green);
+}
+
+.compare-col.now h4 {
+  color: var(--olive-light);
+}
+
+.try-it-box {
+  background: linear-gradient(90deg, rgba(85, 107, 47, 0.2), rgba(255, 176, 0, 0.1));
+  border: 2px dashed var(--olive-light);
   padding: 1rem;
   border-radius: 4px;
+  margin-top: 1rem;
+  text-align: center;
 }
 
-.knowledge-card h3 {
+.try-it-box strong {
+  color: var(--olive-light);
   font-family: 'VT323', monospace;
+}
+
+.try-it-box a {
   color: var(--amber-glow);
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--amber-glow);
 }
 
-.knowledge-card p {
-  color: var(--cream);
-  font-size: 0.9rem;
-}
-
-.cta-box {
-  background: var(--olive-green);
-  padding: 1.5rem;
-  border-radius: 4px;
-}
-
-.cta-box p {
-  color: var(--cream);
-  font-family: 'VT323', monospace;
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  letter-spacing: 1px;
+.try-it-box a:hover {
+  color: var(--amber-light);
+  border-bottom-style: solid;
 }
 
 .tools-grid {
@@ -757,6 +808,14 @@ footer::before {
   
   .tools-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .comparison-box {
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-grid {
+    flex-direction: column;
   }
   
   nav {

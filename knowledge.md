@@ -4,386 +4,909 @@ title: AI Knowledge Base
 ---
 
 <article class="knowledge-page">
+  
+  <!-- HERO SECTION -->
   <div class="knowledge-header">
     <h1>▓ AI KNOWLEDGE BASE ▓</h1>
-    <p class="subtitle">The Complete History of Artificial Intelligence</p>
-    <p class="tagline">From 1950 to the Future - A Journey Through Time</p>
+    <p class="subtitle">The Complete History of Computer Tech & Artificial Intelligence</p>
+    <p class="tagline">From 1943 to the Future - Interactive Journey Through Time</p>
   </div>
 
+  <!-- TIMELINE NAVIGATOR -->
+  <section class="timeline-nav">
+    <div class="nav-grid">
+      <a href="#part1" class="nav-btn">1940s-50s</a>
+      <a href="#part2" class="nav-btn">1960s-70s</a>
+      <a href="#part3" class="nav-btn">1980s</a>
+      <a href="#part4" class="nav-btn">1990s</a>
+      <a href="#part5" class="nav-btn">2000s</a>
+      <a href="#part6" class="nav-btn">2010s</a>
+      <a href="#part7" class="nav-btn">2020-24</a>
+      <a href="#part8" class="nav-btn">2024-26</a>
+      <a href="#part9" class="nav-btn">Hardware</a>
+      <a href="#part10" class="nav-btn">Future</a>
+    </div>
+  </section>
+
+  <!-- PROGRESS TRACKER -->
+  <section class="progress-section">
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <p class="progress-text">Journey Progress: <span id="progressPercent">0</span>%</p>
+  </section>
+
   <!-- PART 1: THE BIRTH OF COMPUTING -->
-  <section class="timeline">
+  <section class="timeline" id="part1">
     <h2>◆ PART 1: THE BIRTH OF COMPUTING (1940s-1950s) ◆</h2>
     
+    <!-- Subsection 1.1: Early Computing Machines -->
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">1943</span>
-        <h3>First Neural Network</h3>
+        <h3>1.1 First Neural Network</h3>
       </div>
-      <p>Warren McCulloch and Walter Pitts create the first mathematical model of a neural network. They demonstrate that simple connected units can compute any logical function.</p>
+      <p>Warren McCulloch and Walter Pitts create the first mathematical model of a neural network - the foundation of all modern AI. They demonstrate that simple connected units can compute any logical function.</p>
       <div class="tech-box">
-        <strong>BUILD THIS NOW:</strong> Try simple neural network simulators online at playground.tensorflow.org<br>
-        <strong>IMPACT:</strong> Foundation of all modern deep learning
+        <strong>THEN (1943):</strong> 1 neuron model, theoretical<br>
+        <strong>NOW (2026):</strong> 100+ trillion parameters in AI models<br>
+        <strong>IMPROVEMENT:</strong> ~100 trillion times more capable
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> <a href="https://playground.tensorflow.org" target="_blank">Build a Neural Network</a> in your browser!
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">1945</span>
-        <h3>ENIAC - First General Computer</h3>
+        <h3>1.2 ENIAC - First General Computer</h3>
       </div>
-      <p>The Electronic Numerical Integrator and Computer (ENIAC) becomes operational at University of Pennsylvania. It's the first programmable electronic digital computer.</p>
-      <div class="tech-box">
-        <strong>COMPARISON:</strong> ENIAC weighed 30 tons, performed 5,000 ops/sec<br>
-        <strong>TODAY:</strong> Your phone performs 10 billion ops/sec
+      <p>The Electronic Numerical Integrator and Computer (ENIAC) becomes operational. It's the first programmable electronic digital computer, weighing 30 tons.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: ENIAC (1945)</h4>
+          <ul>
+            <li>Weight: 30 tons</li>
+            <li>Speed: 5,000 ops/sec</li>
+            <li>Memory: 20 words (80 bytes)</li>
+            <li>Cost: $500,000</li>
+            <li>People to operate: 6</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: iPhone 15 (2024)</h4>
+          <ul>
+            <li>Weight: 171 grams</li>
+            <li>Speed: 15 trillion ops/sec</li>
+            <li>Memory: 8GB RAM</li>
+            <li>Cost: $999</li>
+            <li>Operates: 1 person</li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">1950</span>
-        <h3>The Turing Test</h3>
+        <h3>1.3 The Turing Test</h3>
       </div>
       <p>Alan Turing publishes "Computing Machinery and Intelligence" proposing that if a machine could convince a human it was human through conversation, it could be considered "intelligent."</p>
       <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Talk to AI chatbots at chat.openai.com, anthropic.com, or claude.ai<br>
-        <strong>STATUS:</strong> Some AIs have passed modified versions
+        <strong>THEN (1950):</strong> Theoretical concept only<br>
+        <strong>NOW (2026):</strong> ChatGPT, Claude, Gemini pass many tests<br>
+        <strong>STATUS:</strong> Some AIs now pass modified Turing Tests
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Chat with AI at <a href="https://chat.openai.com" target="_blank">ChatGPT</a> or <a href="https://claude.ai" target="_blank">Claude</a>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">1956</span>
-        <h3>The Birth of AI</h3>
+        <h3>1.4 The Birth of AI</h3>
       </div>
       <p>John McCarthy coins "Artificial Intelligence" at Dartmouth College. The summer conference brings together pioneers who believe machines could simulate every aspect of learning.</p>
       <div class="tech-box">
-        <strong>KEY FIGURES:</strong> John McCarthy, Marvin Minsky, Claude Shannon, Allen Newell<br>
-        <strong>FUNDING:</strong> $8,500 for the original workshop
+        <strong>KEY FIGURES:</strong> John McCarthy, Marvin Minsky, Claude Shannon<br>
+        <strong>FUNDING:</strong> $8,500 for original workshop<br>
+        <strong>TODAY:</strong> $100B+ annual AI investment
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">1958</span>
-        <h3>Lisp and First AI Programs</h3>
+        <h3>1.5 First AI Programs & Languages</h3>
       </div>
       <p>John McCarthy creates Lisp, the AI programming language. The Logic Theorist becomes the first AI program, proving mathematical theorems.</p>
-      <div class="tech-box">
-        <strong>TRY IT:</strong> Python is now used for AI (TensorFlow, PyTorch)<br>
-        <strong>EXAMPLE:</strong> Use ChatGPT to explain math proofs
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Lisp (1958)</h4>
+          <ul>
+            <li>Primary AI language</li>
+            <li>Hard to learn</li>
+            <li>Few practitioners</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: Python (2026)</h4>
+          <ul>
+            <li>Dominant AI language</li>
+            <li>Easy to learn</li>
+            <li>50M+ developers</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- PART 2: THE FIRST AI BOOM -->
-  <section class="timeline">
-    <h2>◆ PART 2: THE FIRST AI BOOM (1960s-1970s) ◆</h2>
+  <!-- PART 2: FIRST COMPUTING REVOLUTION -->
+  <section class="timeline" id="part2">
+    <h2>◆ PART 2: FIRST COMPUTING REVOLUTION (1960s-1970s) ◆</h2>
     
     <div class="timeline-era">
       <div class="era-header">
-        <span class="year">1966</span>
-        <h3>ELIZA - First Chatbot</h3>
+        <span class="year">1964</span>
+        <h3>2.1 Mainframe Era & Time-Sharing</h3>
       </div>
-      <p>Joseph Weizenbaum at MIT creates ELIZA, simulating a Rogerian psychotherapist. Users become emotionally attached, believing they're talking to a human.</p>
+      <p>IBM System/360 revolutionizes computing. Time-sharing allows multiple users to interact with a computer simultaneously - concept behind modern cloud computing.</p>
       <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Replika.ai for conversation, or character.ai for roleplay<br>
-        <strong>PHENOMENON:</strong> "ELIZA Effect" - humans attribute intelligence to programs
+        <strong>THEN:</strong> Mainframes cost $1M+, only big companies<br>
+        <strong>NOW:</strong> Cloud computing - pay per use, anyone can access
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Use free cloud AI at <a href="https://huggingface.co" target="_blank">Hugging Face</a>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">1969</span>
-        <h3>ARPANET and Early Networks</h3>
+        <h3>2.2 ARPANET - Internet's Birth</h3>
       </div>
       <p>The precursor to the internet goes online, connecting four universities. This infrastructure will later enable cloud AI and distributed computing.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: ARPANET (1969)</h4>
+          <ul>
+            <li>4 computers connected</li>
+            <li>56 Kbps speed</li>
+            <li>Military/academic only</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: Internet (2026)</h4>
+          <ul>
+            <li>5B+ computers connected</li>
+            <li>1 Gbps+ speed</li>
+            <li>Everyone connected</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">1966</span>
+        <h3>2.3 ELIZA - First Chatbot</h3>
+      </div>
+      <p>Joseph Weizenbaum at MIT creates ELIZA, the first chatbot. It simulates a Rogerian psychotherapist and tricks users into thinking they're conversing with a human.</p>
       <div class="tech-box">
-        <strong>TODAY:</strong> Cloud AI services like AWS, Google Cloud, Azure run AI<br>
-        <strong>EXAMPLE:</strong> Run AI models entirely in your browser with HuggingFace.co
+        <strong>THEN (1966):</strong> 200 lines of code, simple pattern matching<br>
+        <strong>NOW (2026):</strong> LLMs with 1+ trillion parameters, context awareness<br>
+        <strong>IMPROVEMENT:</strong> Billions of times more capable
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Compare simple chatbots to advanced AI at <a href="https://character.ai" target="_blank">Character.AI</a>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">1972</span>
-        <h3>MYCIN - Medical Expert System</h3>
+        <h3>2.4 MYCIN - First Expert System</h3>
       </div>
       <p>Stanford creates MYCIN, an expert system for medical diagnosis. It identifies bacteria and recommends antibiotics with 69% accuracy - better than human interns.</p>
       <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Ada Health app, Babylon Health for AI medical screening<br>
-        <strong>FUTURE:</strong> AI will diagnose better than doctors by 2030
+        <strong>THEN:</strong> Rules-based, limited knowledge base<br>
+        <strong>NOW:</strong> AI diagnoses from millions of cases, 95%+ accuracy<br>
+        <strong>EXAMPLE:</strong> Ada Health, Babylon Health
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Try AI health screening at <a href="https://ada.com" target="_blank">Ada Health</a>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
-        <span class="year">1973</span>
-        <h3>The First AI Winter Begins</h3>
+        <span class="year">1977</span>
+        <h3>2.5 Personal Computing Begins</h3>
       </div>
-      <p>Lighthill Report criticizes AI's limited progress. Funding collapses. The term "AI" becomes toxic in research circles.</p>
-      <div class="tech-box">
-        <strong>LESSON:</strong> Overpromising led to disappointment<br>
-        <strong>NOW:</strong> AI delivers real results - be cautiously optimistic
+      <p>Apple II, Commodore PET, and TRS-80 bring computing to homes. The revolution that will eventually put AI in everyone's pocket begins.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Apple II (1977)</h4>
+          <ul>
+            <li>RAM: 4-64 KB</li>
+            <li>Display: B&W TV</li>
+            <li>Cost: $1,298+</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: AI Phone (2026)</h4>
+          <ul>
+            <li>RAM: 8-24 GB</li>
+            <li>Display: 4K OLED</li>
+            <li>Cost: $999+</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- PART 3: EXPERT SYSTEMS AND RESURGENCE -->
-  <section class="timeline">
-    <h2>◆ PART 3: EXPERT SYSTEMS & RESURGENCE (1980s-1990s) ◆</h2>
+  <!-- PART 3: THE MICROPROCESSOR AGE -->
+  <section class="timeline" id="part3">
+    <h2>◆ PART 3: THE MICROPROCESSOR AGE (1980s) ◆</h2>
     
-    <div class="timeline-era highlight">
+    <div class="timeline-era">
       <div class="era-header">
-        <span class="year">1980</span>
-        <h3>Expert Systems Peak</h3>
+        <span class="year">1981</span>
+        <h3>3.1 IBM PC Revolution</h3>
       </div>
-      <p>XCON (Digital Equipment Corporation) becomes the first commercially successful expert system. It saves the company $40M/year by automatically configuring computer orders.</p>
+      <p>IBM releases the IBM PC, establishing the standard for personal computers. The open architecture allows clones, creating a massive PC ecosystem.</p>
       <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Use AI assistants like Copilot, Claude, or ChatGPT for expert knowledge<br>
-        <strong>EXAMPLE:</strong> AI legal research (CaseText), medical diagnosis (Ada)
+        <strong>THEN:</strong> IBM PC had 16KB RAM, no hard drive option<br>
+        <strong>NOW:</strong> PCs have 32GB+ RAM, 4TB+ SSD<br>
+        <strong>IMPROVEMENT:</strong> 2 million times more memory
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">1984</span>
+        <h3>3.2 Apple Macintosh</h3>
+      </div>
+      <p>Apple releases the Macintosh with graphical user interface (GUI). Point-and-click computing becomes mainstream, revolutionizing human-computer interaction.</p>
+      <div class="tech-box">
+        <strong>THEN:</strong> Command line interfaces<br>
+        <strong>NOW:</strong> Voice AI, gesture control, brain-computer interfaces<br>
+        <strong>EXAMPLE:</strong> Use voice to control AI at chat.openai.com
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">1986</span>
-        <h3>Backpropagation Revolution</h3>
+        <h3>3.3 Backpropagation Revolution</h3>
       </div>
       <p>Geoffrey Hinton and colleagues popularize backpropagation - the algorithm that allows neural networks to learn from errors. This enables deeper networks.</p>
-      <div class="tech-box">
-        <strong>TRY IT:</strong> Train neural networks at playground.tensorflow.org<br>
-        <strong>THIS MAKES IT POSSIBLE:</strong> All modern deep learning
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> See neural networks in action at <a href="https://playground.tensorflow.org" target="_blank">TensorFlow Playground</a>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">1987</span>
-        <h3>The Second AI Winter</h3>
+        <h3>3.4 The Second AI Winter</h3>
       </div>
-      <p>Expert systems prove brittle and expensive. The market crashes. Another funding drought hits AI research.</p>
+      <p>Expert systems prove brittle and expensive. The market crashes. Another funding drought hits AI research. The term "AI" becomes toxic in business.</p>
       <div class="tech-box">
-        <strong>LESSON:</strong> Narrow AI beats general-purpose systems<br>
-        <strong>NOW:</strong> Focus on specific use cases
+        <strong>LESSON LEARNED:</strong> Narrow AI beats general-purpose systems<br>
+        <strong>NOW:</strong> Specialization + foundation models = success
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
-        <span class="year">1997</span>
-        <h3>Deep Blue Beats Kasparov</h3>
+        <span class="year">1989</span>
+        <h3>3.5 AI in Video Games</h3>
       </div>
-      <p>IBM's Deep Blue defeats world chess champion Garry Kasparov. "The brain is not like a computer. The computer is like the brain." - Kasparov</p>
-      <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Play against Stockfish chess AI online<br>
-        <strong>LEVEL:</strong> AI now plays chess 500+ ELO points above humans
+      <p>Video games introduce AI opponents. From simple patterns to complex behaviors, gaming AI becomes a proving ground for intelligent systems.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Pac-Man (1980)</h4>
+          <ul>
+            <li>4 ghost patterns</li>
+            <li>Predictable behavior</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: AI Gaming (2026)</h4>
+          <ul>
+            <li>Learns player style</li>
+            <li>Dynamic difficulty</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- PART 4: MACHINE LEARNING ERA -->
-  <section class="timeline">
-    <h2>◆ PART 4: THE MACHINE LEARNING ERA (2000s-2010s) ◆</h2>
+  <!-- PART 4: THE INTERNET AGE -->
+  <section class="timeline" id="part4">
+    <h2>◆ PART 4: THE INTERNET AGE (1990s) ◆</h2>
     
     <div class="timeline-era">
       <div class="era-header">
-        <span class="year">2005</span>
-        <h3>Rise of Machine Learning</h3>
+        <span class="year">1991</span>
+        <h3>4.1 World Wide Web</h3>
       </div>
-      <p>Machine learning replaces rule-based systems. Google uses ML for spam filtering. Netflix uses ML for recommendations. The shift from explicit programming begins.</p>
+      <p>Tim Berners-Lee releases the World Wide Web. HTML, URLs, and HTTP become the foundation of the digital age.</p>
       <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Netflix recommendations, Spotify Discover Weekly<br>
-        <strong>BUILD:</strong> Use scikit-learn.org to build your first ML model
+        <strong>THEN:</strong> 1 million web pages (1995)<br>
+        <strong>NOW:</strong> 1+ billion web pages, AI-indexed<br>
+        <strong>AI CONNECTION:</strong> AI searches and understands all of them
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
-        <span class="year">2011</span>
-        <h3>Watson Wins Jeopardy</h3>
+        <span class="year">1995</span>
+        <h3>4.2 Amazon & E-Commerce</h3>
       </div>
-      <p>IBM's Watson defeats Ken Jennings on Jeopardy, demonstrating advanced natural language understanding and knowledge retrieval.</p>
-      <div class="tech-box">
-        <strong>TRY IT NOW:</strong> ChatGPT or Ask Claude any question<br>
-        <strong>IMPROVEMENT:</strong> Modern AIs are 100x more capable
+      <p>Amazon launches as online bookstore. E-commerce transforms retail. AI recommendation systems begin.</p>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> See AI recommendations at Amazon, Netflix, Spotify
       </div>
     </div>
 
     <div class="timeline-era highlight">
       <div class="era-header">
-        <span class="year">2012</span>
-        <h3>ImageNet Revolution</h3>
+        <span class="year">1997</span>
+        <h3>4.3 Deep Blue Beats Kasparov</h3>
       </div>
-      <p>AlexNet wins ImageNet competition with 85% accuracy - a 10% jump over previous winners. Deep learning explodes. GPUs enable neural networks to process millions of images.</p>
+      <p>IBM's Deep Blue defeats world chess champion Garry Kasparov. A milestone showing machines can beat humans at complex strategic games.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>DEEP BLUE (1997)</h4>
+          <ul>
+            <li>Speed: 200M positions/sec</li>
+            <li>Method: Brute force</li>
+            <li>Learn: No</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>STOCKFISH AI (2026)</h4>
+          <ul>
+            <li>Speed: 100B nodes/sec</li>
+            <li>Method: Neural networks</li>
+            <li>Learn: Yes</li>
+          </ul>
+        </div>
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Play chess against AI at <a href="https://lichess.org" target="_blank">Lichess.org</a>
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">1998</span>
+        <h3>4.4 Google Founded</h3>
+      </div>
+      <p>Larry Page and Sergey Brin found Google. PageRank algorithm revolutionizes search. AI will later make search intelligent.</p>
       <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Use Google Lens to identify objects, Remove.bg for background removal<br>
-        <strong>BUILD:</strong> Run image AI with Stable Diffusion, DALL-E, Midjourney
+        <strong>THEN:</strong> Search by keywords only<br>
+        <strong>NOW:</strong> AI understands context, intent, multimodal<br>
+        <strong>EXAMPLE:</strong> Gemini, Perplexity AI search
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">1999</span>
+        <h3>4.5 First Smartphones</h3>
+      </div>
+      <p>BlackBerry lands first smartphone deal. The convergence of computing, internet, and mobility begins.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: BlackBerry (1999)</h4>
+          <ul>
+            <li>Display: B&W LCD</li>
+            <li>Email: Push</li>
+            <li>AI: None</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: AI Phone (2026)</h4>
+          <ul>
+            <li>Display: 4K OLED</li>
+            <li>AI: Everything</li>
+            <li>Assistant: ChatGPT, Gemini</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PART 5: MOBILE & SOCIAL AGE -->
+  <section class="timeline" id="part5">
+    <h2>◆ PART 5: MOBILE & SOCIAL AGE (2000s) ◆</h2>
+    
+    <div class="timeline-era highlight">
+      <div class="era-header">
+        <span class="year">2007</span>
+        <h3>5.1 iPhone Revolution</h3>
+      </div>
+      <p>Apple releases iPhone. Multi-touch interface, mobile apps, and constant connectivity change how humanity interacts with technology forever.</p>
+      <div class="tech-box">
+        <strong>THEN:</strong> Phones make calls, send texts<br>
+        <strong>NOW:</strong> AI in pocket, voice assistants, AR/VR<br>
+        <strong>IMPACT:</strong> AI becomes personal and portable
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">2008</span>
+        <h3>5.2 Android & App Stores</h3>
+      </div>
+      <p>Android launches, App Store opens. Anyone can build an app. The platform economy is born.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Apps (2008)</h4>
+          <ul>
+            <li>Simple games</li>
+            <li>Basic utilities</li>
+            <li>No AI</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: AI Apps (2026)</h4>
+          <ul>
+            <li>AI assistants</li>
+            <li>Generative content</li>
+            <li>Autonomous agents</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">2010</span>
+        <h3>5.3 Siri - First Voice AI</h3>
+      </div>
+      <p>Apple releases Siri, the first mainstream voice AI assistant. "Hey Siri" becomes part of daily life.</p>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Compare Siri to ChatGPT Voice, Gemini Live
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">2008</span>
+        <h3>5.4 Cloud Computing Era</h3>
+      </div>
+      <p>AWS matures. Anyone can rent computing power. AI becomes a service anyone can use.</p>
+      <div class="tech-box">
+        <strong>SERVICES:</strong> AWS, Google Cloud, Azure<br>
+        <strong>AI:</strong> AI API calls, pre-trained models<br>
+        <strong>EXAMPLE:</strong> Use AI without owning GPUs
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Use free AI APIs at <a href="https://cloud.google.com/free" target="_blank">Google Cloud Free</a>
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">2004-2010</span>
+        <h3>5.5 Social Media Explosion</h3>
+      </div>
+      <p>Facebook, YouTube, Twitter, Instagram. User-generated content explodes. Algorithms begin to curate what we see.</p>
+      <div class="tech-box">
+        <strong>THEN:</strong> Chronological feeds<br>
+        <strong>NOW:</strong> AI-curated feeds, recommendations<br>
+        <strong>AI IMPACT:</strong> Every post is analyzed, predicted, optimized
+      </div>
+    </div>
+  </section>
+
+  <!-- PART 6: DEEP LEARNING REVOLUTION -->
+  <section class="timeline" id="part6">
+    <h2>◆ PART 6: DEEP LEARNING REVOLUTION (2010s) ◆</h2>
+    
+    <div class="timeline-era highlight">
+      <div class="era-header">
+        <span class="year">2012</span>
+        <h3>6.1 ImageNet Revolution</h3>
+      </div>
+      <p>AlexNet wins ImageNet competition with 85% accuracy - a 10% jump over previous winners. Deep learning explodes onto the scene.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Traditional CV (2011)</h4>
+          <ul>
+            <li>Accuracy: 75%</li>
+            <li>Method: Hand-crafted features</li>
+            <li>Images: Limited</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: Deep Learning (2026)</h4>
+          <ul>
+            <li>Accuracy: 99.9%+</li>
+            <li>Method: Neural networks</li>
+            <li>Images: Unlimited</li>
+          </ul>
+        </div>
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Try AI image recognition at <a href="https://cloud.google.com/vision" target="_blank">Google Cloud Vision</a>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">2014</span>
-        <h3>GANs and Deepfakes</h3>
+        <h3>6.2 GANs and AI Art</h3>
       </div>
       <p>Ian Goodfellow invents Generative Adversarial Networks (GANs). Two neural networks compete to create realistic images. The era of AI-generated content begins.</p>
       <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Generate images with DALL-E, Midjourney, Stable Diffusion<br>
-        <strong>ETHICS:</strong> Be aware of deepfake misinformation
+        <strong>THEN (2014):</strong> Pixelated, obvious fakes<br>
+        <strong>NOW (2026):</strong> Photorealistic, video, 3D<br>
+        <strong>EXAMPLE:</strong> DALL-E 3, Midjourney v7
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Generate images at <a href="https://openai.com/dall-e-3" target="_blank">DALL-E</a> or <a href="https://stability.ai" target="_blank">Stable Diffusion</a>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">2016</span>
-        <h3>AlphaGo Beats Lee Sedol</h3>
+        <h3>6.3 AlphaGo - Intuitive AI</h3>
       </div>
-      <p>DeepMind's AlphaGo defeats the world Go champion. Unlike chess, Go requires intuition. AI demonstrates creative, intuitive thinking beyond brute force.</p>
+      <p>DeepMind's AlphaGo defeats Lee Sedol, world Go champion. Unlike chess, Go requires intuition. AI demonstrates creative, intuitive thinking.</p>
       <div class="tech-box">
-        <strong>TRY IT:</strong> AI plays Go at online-go.com against AI bots<br>
+        <strong>BREAKTHROUGH:</strong> AI learns intuition, not just calculation<br>
         <strong>FUTURE:</strong> AI discovers new strategies humans never imagined
+      </div>
+    </div>
+
+    <div class="timeline-era highlight">
+      <div class="era-header">
+        <span class="year">2017</span>
+        <h3>6.4 Transformers Change Everything</h3>
+      </div>
+      <p>Google releases "Attention Is All You Need" paper. Transformers become the dominant architecture for all AI.</p>
+      <div class="tech-box">
+        <strong>LEGACY:</strong> GPT, Claude, Gemini, Llama - all built on transformers<br>
+        <strong>IMPACT:</strong> The foundation of modern AI
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">2018</span>
-        <h3>BERT and Transformers</h3>
+        <h3>6.5 BERT and NLP Revolution</h3>
       </div>
-      <p>Google releases BERT, revolutionizing natural language processing. Transformers become the dominant architecture for all AI.</p>
-      <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Every modern AI chatbot uses transformers<br>
-        <strong>BUILD:</strong> Use Hugging Face to build transformer models
+      <p>Google releases BERT, revolutionizing natural language processing. Machines finally understand context.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Old NLP (2017)</h4>
+          <ul>
+            <li>Context: Limited</li>
+            <li>Accuracy: 60%</li>
+            <li>Languages: Few</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: Modern NLP (2026)</h4>
+          <ul>
+            <li>Context: Unlimited</li>
+            <li>Accuracy: 95%+</li>
+            <li>Languages: 100+</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- PART 5: THE LLM REVOLUTION -->
-  <section class="timeline">
-    <h2>◆ PART 5: THE LLM REVOLUTION (2020-2024) ◆</h2>
+  <!-- PART 7: THE LLM ERA -->
+  <section class="timeline" id="part7">
+    <h2>◆ PART 7: THE LLM ERA (2020-2024) ◆</h2>
     
     <div class="timeline-era highlight">
       <div class="era-header">
         <span class="year">2020</span>
-        <h3>GPT-3 Arrives</h3>
+        <h3>7.1 GPT-3 Arrives</h3>
       </div>
       <p>OpenAI releases GPT-3 with 175 billion parameters. It writes essays, code, poetry, and more. The public experiences AI's power firsthand.</p>
-      <div class="tech-box">
-        <strong>TRY IT NOW:</strong> chat.openai.com - free to use<br>
-        <strong>CAPABILITY:</strong> Few-shot learning - learns from few examples
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>GPT-2 (2019)</h4>
+          <ul>
+            <li>Parameters: 1.5B</li>
+            <li>Context: 1K tokens</li>
+            <li>Training: $50K</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>GPT-4 (2023)</h4>
+          <ul>
+            <li>Parameters: 1.7T</li>
+            <li>Context: 128K tokens</li>
+            <li>Training: $100M+</li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">2021</span>
-        <h3>Code Generation Explodes</h3>
+        <h3>7.2 AI Code Generation</h3>
       </div>
       <p>GitHub Copilot launches, generating code from comments. AI can now write functional programs. Developers gain superpowers.</p>
-      <div class="tech-box">
-        <strong>TRY IT NOW:</strong> github.com/features/copilot or Cursor AI editor<br>
-        <strong>IMPACT:</strong> 40% faster coding reported
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Use AI coding at <a href="https://github.com/features/copilot" target="_blank">GitHub Copilot</a> or <a href="https://cursor.sh" target="_blank">Cursor</a>
       </div>
     </div>
 
     <div class="timeline-era highlight">
       <div class="era-header">
         <span class="year">2022</span>
-        <h3>ChatGPT Goes Mainstream</h3>
+        <h3>7.3 ChatGPT Goes Mainstream</h3>
       </div>
       <p>ChatGPT reaches 100 million users faster than any technology in history. DALL-E creates images from text. AI goes mainstream overnight.</p>
       <div class="tech-box">
         <strong>MILESTONE:</strong> Fastest-growing app ever - 100M users in 2 months<br>
-        <strong>TRY IT:</strong> Claude.ai, Gemini.google.com, Meta AI
+        <strong>COMPARE:</strong> TikTok took 9 months, Instagram 2.5 years
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Start chatting at <a href="https://chat.openai.com" target="_blank">ChatGPT</a> (free!)
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">2023</span>
-        <h3>GPT-4 and Multimodal AI</h3>
+        <h3>7.4 Multimodal AI</h3>
       </div>
-      <p>OpenAI releases GPT-4, processing text, images, and code. Claude, Gemini, and Llama follow. AI becomes multimodal.</p>
-      <div class="tech-box">
-        <strong>TRY IT NOW:</strong> GPT-4, Claude 3, Gemini Advanced<br>
-        <strong>CAPABILITY:</strong> See, hear, speak, and code
+      <p>GPT-4 processes text, images, and code. Claude, Gemini, and Llama follow. AI becomes multimodal - seeing, hearing, speaking.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Text-Only (2020)</h4>
+          <ul>
+            <li>Input: Text only</li>
+            <li>Output: Text only</li>
+            <li>Modalities: 1</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: Multimodal (2024)</h4>
+          <ul>
+            <li>Input: Text, image, audio, video</li>
+            <li>Output: All of above</li>
+            <li>Modalities: 5+</li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">2024</span>
-        <h3>AI Video and Voice</h3>
+        <h3>7.5 AI Video & Voice</h3>
       </div>
-      <p>Sora, Runway, and Kling create video from text. ElevenLabs clones voices. AI generates entire movies, podcasts, and more.</p>
-      <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Runway Gen-2, Pika Labs, HeyGen for video<br>
-        <strong>VOICE:</strong> ElevenLabs, Respeecher for voice cloning
+      <p>Sora, Runway, and Kling create video from text. ElevenLabs clones voices. AI generates entire movies, podcasts, and content.</p>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Generate video at <a href="https://runwayml.com" target="_blank">Runway</a>, clone voice at <a href="https://elevenlabs.io" target="_blank">ElevenLabs</a>
       </div>
     </div>
   </section>
 
-  <!-- PART 6: THE AGENT ERA -->
-  <section class="timeline">
-    <h2>◆ PART 6: THE AGENT ERA (2024-2026) ◆</h2>
+  <!-- PART 8: THE AGENT ERA -->
+  <section class="timeline" id="part8">
+    <h2>◆ PART 8: THE AGENT ERA (2024-2026) ◆</h2>
     
     <div class="timeline-era highlight">
       <div class="era-header">
         <span class="year">2024</span>
-        <h3>AI Agents Arrive</h3>
+        <h3>8.1 AI Agents Arrive</h3>
       </div>
       <p>AI evolves from chatbots to autonomous agents. Agents can plan, execute, and iterate. They book flights, write code, and manage projects.</p>
       <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Use AgentGPT, AutoGPT, or Claude's computer use<br>
-        <strong>EXAMPLE:</strong> Let AI browse the web and complete tasks for you
+        <strong>CHATBOT:</strong> Responds to prompts<br>
+        <strong>AGENT:</strong> Completes complex tasks autonomously<br>
+        <strong>EXAMPLE:</strong> AutoGPT, Claude Computer Use, Operator
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Try AI agents at <a href="https://agentgpt.reworkd.ai" target="_blank">AgentGPT</a>
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">2024</span>
+        <h3>8.2 Reasoning Models</h3>
+      </div>
+      <p>OpenAI's o1 and Claude's reasoning models demonstrate chain-of-thought. AI now "thinks" through problems step-by-step.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Fast Thinking (2023)</h4>
+          <ul>
+            <li>Response: Instant</li>
+            <li>Reasoning: Limited</li>
+            <li>Math: Basic</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: Slow Thinking (2024)</h4>
+          <ul>
+            <li>Response: Deliberate</li>
+            <li>Reasoning: Chain-of-thought</li>
+            <li>Math: Expert-level</li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">2025</span>
-        <h3>Reasoning Models</h3>
+        <h3>8.3 Personal AI</h3>
       </div>
-      <p>OpenAI's o1 and Claude's reasoning models demonstrate chain-of-thought. AI now "thinks" through problems step-by-step, like humans.</p>
+      <p>Every person has AI assistants that know them, work for them, and represent them. The "personal AI" era begins.</p>
       <div class="tech-box">
-        <strong>TRY IT NOW:</strong> OpenAI o1, Claude with extended thinking<br>
-        <strong>IMPROVEMENT:</strong> Better math, science, and coding
+        <strong>EXAMPLES:</strong> Replika, Personal AI, AI companions<br>
+        <strong>FUTURE:</strong> Your AI knows your preferences, works while you sleep
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Create your AI companion at <a href="https://replika.com" target="_blank">Replika</a>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
         <span class="year">2026</span>
-        <h3>AI Becomes Personal</h3>
+        <h3>8.4 AI Hardware Revolution</h3>
       </div>
-      <p>Every person has AI assistants that know them, work for them, and represent them. The "personal AI" era begins.</p>
-      <div class="tech-box">
-        <strong>TRY IT NOW:</strong> Replika, Personal AI, AI companions<br>
-        <strong>FUTURE:</strong> Your AI knows your preferences, works while you sleep
+      <p>AI chips in every device. Neural Processing Units (NPUs) in phones, laptops, and cameras. Local AI runs everywhere.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Cloud AI (2020)</h4>
+          <ul>
+            <li>Processing: Cloud only</li>
+            <li>Latency: 100-500ms</li>
+            <li>Privacy: Data leaves device</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: Local AI (2026)</h4>
+          <ul>
+            <li>Processing: On-device</li>
+            <li>Latency: 0ms</li>
+            <li>Privacy: Data stays local</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- PART 7: THE NEAR FUTURE -->
-  <section class="timeline future">
-    <h2>◆ PART 7: THE NEAR FUTURE (2026-2030) ◆</h2>
+  <!-- PART 9: HARDWARE EVOLUTION -->
+  <section class="timeline" id="part9">
+    <h2>◆ PART 9: THE HARDWARE EVOLUTION ◆</h2>
+    
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">1947</span>
+        <h3>9.1 The Transistor Revolution</h3>
+      </div>
+      <p>Bell Labs invents the transistor. Vacuum tubes become obsolete. Miniaturization begins.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: Vacuum Tubes (1950)</h4>
+          <ul>
+            <li>Size: Fist-sized</li>
+            <li>Heat: High</li>
+            <li>Lifespan: 1,000 hours</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: Transistors (2026)</h4>
+          <ul>
+            <li>Size: Atom-sized</li>
+            <li>Heat: Low</li>
+            <li>Lifespan: Decades</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">1971</span>
+        <h3>9.2 The Microprocessor</h3>
+      </div>
+      <p>Intel releases the 4004, the first commercial microprocessor. The brain of modern computing is born.</p>
+      <div class="tech-box">
+        <strong>Intel 4004:</strong> 2,300 transistors, 740 KHz<br>
+        <strong>Apple M4:</strong> 28 billion transistors, 4.4 GHz<br>
+        <strong>IMPROVEMENT:</strong> 12 million times more transistors
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">2007</span>
+        <h3>9.3 AI Chips (TPU/NPU)</h3>
+      </div>
+      <p>Google designs Tensor Processing Units (TPUs) specifically for AI. Neural networks can now train in hours, not weeks.</p>
+      <div class="comparison-box">
+        <div class="compare-col then">
+          <h4>THEN: CPU Training (2012)</h4>
+          <ul>
+            <li>AlexNet: 6 days</li>
+            <li>GPU: 1 day</li>
+            <li>Cost: $50K</li>
+          </ul>
+        </div>
+        <div class="compare-col now">
+          <h4>NOW: TPU Training (2026)</h4>
+          <ul>
+            <li>GPT-4: Weeks</li>
+            <li>Cost: $10M+</li>
+            <li>Efficiency: 100x better</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">1956</span>
+        <h3>9.4 Storage Evolution</h3>
+      </div>
+      <p>From punch cards to DNA storage. Data storage has evolved unbelievably.</p>
+      <div class="tech-box">
+        <strong>THEN:</strong> Punch cards: 80 bytes per card<br>
+        <strong>NOW:</strong> DNA storage: 215 petabytes per gram<br>
+        <strong>IMPROVEMENT:</strong> Trillions times more capacity
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">2020s</span>
+        <h3>9.5 Quantum Computing</h3>
+      </div>
+      <p>IBM, Google, and others achieve quantum supremacy. Problems impossible for classical computers become solvable.</p>
+      <div class="tech-box">
+        <strong>CURRENT:</strong> 1000+ qubit machines<br>
+        <strong>FUTURE:</strong> Million+ qubits, practical applications<br>
+        <strong>AI IMPACT:</strong> Faster training, new algorithms
+      </div>
+      <div class="try-it-box">
+        <strong>▸ TRY IT NOW:</strong> Explore quantum computing at <a href="https://quantum-computing.ibm.com" target="_blank">IBM Quantum</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PART 10: THE FUTURE -->
+  <section class="timeline future" id="part10">
+    <h2>◆ PART 10: THE FUTURE (2026+) ◆</h2>
     
     <div class="timeline-era future-era">
       <div class="era-header">
-        <span class="year">2026</span>
-        <h3>Agent Economy</h3>
+        <span class="year">2026-2028</span>
+        <h3>10.1 Agent Economy</h3>
       </div>
       <p>AI agents become ubiquitous. Every person has multiple AI agents - researchers, assistants, creators. The "agent economy" transforms work.</p>
       <div class="prediction">
-        <strong>▸ TRY TO ANTICIPATE:</strong> AI agents that trade, research, and negotiate for you<br>
-        <strong>▸ PREDICTION:</strong> 1 billion AI agents deployed
+        <strong>▸ PREDICTION:</strong> 1 billion AI agents deployed<br>
+        <strong>▸ YOUR LIFE:</strong> AI books flights, trades, researches for you
       </div>
     </div>
 
     <div class="timeline-era future-era">
       <div class="era-header">
-        <span class="year">2027</span>
-        <h3>Video = Text</h3>
+        <span class="year">2027-2030</span>
+        <h3>10.2 Video = Text</h3>
       </div>
       <p>Generating a movie takes a prompt. AI creates entire films, ads, and content instantly. Traditional video production disrupted.</p>
       <div class="prediction">
@@ -394,8 +917,8 @@ title: AI Knowledge Base
 
     <div class="timeline-era future-era">
       <div class="era-header">
-        <span class="year">2028</span>
-        <h3>Real-Time Translation</h3>
+        <span class="year">2028-2030</span>
+        <h3>10.3 Real-Time Translation</h3>
       </div>
       <p>Perfect speech translation in all languages. Anyone can speak to anyone. Language barriers disappear.</p>
       <div class="prediction">
@@ -406,8 +929,8 @@ title: AI Knowledge Base
 
     <div class="timeline-era future-era">
       <div class="era-header">
-        <span class="year">2030</span>
-        <h3>Artificial General Intelligence</h3>
+        <span class="year">2027-2040</span>
+        <h3>10.4 Artificial General Intelligence</h3>
       </div>
       <p>Some experts predict AGI - AI that matches or exceeds human intelligence across all domains. Debate continues on timeline.</p>
       <div class="prediction">
@@ -415,16 +938,11 @@ title: AI Knowledge Base
         <strong>▸ DEFINITION:</strong> AI can do any intellectual task a human can
       </div>
     </div>
-  </section>
 
-  <!-- PART 8: THE DISTANT FUTURE -->
-  <section class="timeline future">
-    <h2>◆ PART 8: THE DISTANT FUTURE (2030+) ◆</h2>
-    
     <div class="timeline-era future-era">
       <div class="era-header">
         <span class="year">2030-2040</span>
-        <h3>Superintelligence</h3>
+        <h3>10.5 Superintelligence</h3>
       </div>
       <p>AI surpasses human intelligence dramatically. Potential for rapid self-improvement. Questions of control, alignment, and humanity's role emerge.</p>
       <div class="prediction">
@@ -436,7 +954,7 @@ title: AI Knowledge Base
     <div class="timeline-era future-era">
       <div class="era-header">
         <span class="year">2040-2050</span>
-        <h3>Post-Scarcity</h3>
+        <h3>10.6 Post-Scarcity</h3>
       </div>
       <p>AI solves climate change, cures diseases, discovers new materials. Abundance becomes possible. Human purpose redefined.</p>
       <div class="prediction">
@@ -450,7 +968,7 @@ title: AI Knowledge Base
     <div class="timeline-era future-era">
       <div class="era-header">
         <span class="year">2050+</span>
-        <h3>The Unimaginable</h3>
+        <h3>10.7 The Unimaginable</h3>
       </div>
       <p>Science fiction becomes reality. What was once magic becomes mundane. The future remains unwritten - and you shape it.</p>
       <div class="prediction">
@@ -460,110 +978,79 @@ title: AI Knowledge Base
     </div>
   </section>
 
-  <!-- AI TOOLS YOU CAN USE NOW -->
+  <!-- AI TOOLS SUMMARY -->
   <section class="timeline">
-    <h2>◆ AI TOOLS YOU CAN USE RIGHT NOW ◆</h2>
+    <h2>◆ FREE AI TOOLS FOR EVERY ERA ◆</h2>
     
-    <div class="timeline-era highlight">
+    <div class="timeline-era">
       <div class="era-header">
-        <span class="year">FREE</span>
-        <h3>Text & Writing</h3>
+        <span class="year">TEXT AI</span>
+        <h3>Writing & Conversation</h3>
       </div>
       <div class="tools-grid">
-        <div class="tool-card">
-          <strong>ChatGPT</strong><br>
-          <span>chat.openai.com</span><br>
-          <em>General conversation, writing, coding</em>
-        </div>
-        <div class="tool-card">
-          <strong>Claude</strong><br>
-          <span>claude.ai</span><br>
-          <em>Thoughtful analysis, writing, research</em>
-        </div>
-        <div class="tool-card">
-          <strong>Gemini</strong><br>
-          <span>gemini.google.com</span><br>
-          <em>Google's AI, multimodal</em>
-        </div>
+        <div class="tool-card"><strong>ChatGPT</strong><span>chat.openai.com</span></div>
+        <div class="tool-card"><strong>Claude</strong><span>claude.ai</span></div>
+        <div class="tool-card"><strong>Gemini</strong><span>gemini.google.com</span></div>
+        <div class="tool-card"><strong>Perplexity</strong><span>perplexity.ai</span></div>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
-        <span class="year">FREE</span>
-        <h3>Image Generation</h3>
+        <span class="year">IMAGE AI</span>
+        <h3>Create Pictures</h3>
       </div>
       <div class="tools-grid">
-        <div class="tool-card">
-          <strong>DALL-E</strong><br>
-          <span>openai.com/dall-e-3</span><br>
-          <em>OpenAI's image generator</em>
-        </div>
-        <div class="tool-card">
-          <strong>Stable Diffusion</strong><br>
-          <span>stability.ai</span><br>
-          <em>Open-source image AI</em>
-        </div>
-        <div class="tool-card">
-          <strong>Midjourney</strong><br>
-          <span>midjourney.com</span><br>
-          <em>Artistic image creation</em>
-        </div>
+        <div class="tool-card"><strong>DALL-E 3</strong><span>openai.com/dall-e-3</span></div>
+        <div class="tool-card"><strong>Midjourney</strong><span>midjourney.com</span></div>
+        <div class="tool-card"><strong>Stable Diffusion</strong><span>stability.ai</span></div>
+        <div class="tool-card"><strong>Leonardo</strong><span>leonardo.ai</span></div>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
-        <span class="year">FREE</span>
-        <h3>Video & Audio</h3>
+        <span class="year">VIDEO AI</span>
+        <h3>Create Videos</h3>
       </div>
       <div class="tools-grid">
-        <div class="tool-card">
-          <strong>Runway</strong><br>
-          <span>runwayml.com</span><br>
-          <em>AI video generation</em>
-        </div>
-        <div class="tool-card">
-          <strong>ElevenLabs</strong><br>
-          <span>elevenlabs.io</span><br>
-          <em>Voice cloning & synthesis</em>
-        </div>
-        <div class="tool-card">
-          <strong>HeyGen</strong><br>
-          <span>heygen.com</span><br>
-          <em>AI avatar videos</em>
-        </div>
+        <div class="tool-card"><strong>Runway</strong><span>runwayml.com</span></div>
+        <div class="tool-card"><strong>Pika</strong><span>pika.art</span></div>
+        <div class="tool-card"><strong>HeyGen</strong><span>heygen.com</span></div>
+        <div class="tool-card"><strong>Kling</strong><span>klingai.com</span></div>
       </div>
     </div>
 
     <div class="timeline-era">
       <div class="era-header">
-        <span class="year">FREE</span>
-        <h3>Development</h3>
+        <span class="year">VOICE AI</span>
+        <h3>Create Audio</h3>
       </div>
       <div class="tools-grid">
-        <div class="tool-card">
-          <strong>GitHub Copilot</strong><br>
-          <span>github.com/features/copilot</span><br>
-          <em>AI code completion</em>
-        </div>
-        <div class="tool-card">
-          <strong>Cursor</strong><br>
-          <span>cursor.sh</span><br>
-          <em>AI-first code editor</em>
-        </div>
-        <div class="tool-card">
-          <strong>Windsurf</strong><br>
-          <span>windsurf.ai</span><br>
-          <em>AI coding agent</em>
-        </div>
+        <div class="tool-card"><strong>ElevenLabs</strong><span>elevenlabs.io</span></div>
+        <div class="tool-card"><strong>Murf AI</strong><span>murf.ai</span></div>
+        <div class="tool-card"><strong>Respeecher</strong><span>respeecher.com</span></div>
+        <div class="tool-card"><strong>Coqui</strong><span>coqui.ai</span></div>
+      </div>
+    </div>
+
+    <div class="timeline-era">
+      <div class="era-header">
+        <span class="year">CODE AI</span>
+        <h3>Programming</h3>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card"><strong>Copilot</strong><span>github.com/copilot</span></div>
+        <div class="tool-card"><strong>Cursor</strong><span>cursor.sh</span></div>
+        <div class="tool-card"><strong>Windsurf</strong><span>windsurf.ai</span></div>
+        <div class="tool-card"><strong>Claude Code</strong><span>anthropic.com/claude-code</span></div>
       </div>
     </div>
   </section>
 
-  <!-- KNOWLEDGE FOOTER -->
+  <!-- FOOTER CTA -->
   <section class="knowledge-footer">
-    <h2>◆ YOUR AI JOURNEY STARTS NOW ◆</h2>
+    <h2>◆ YOUR AI JOURNEY CONTINUES ◆</h2>
     <div class="knowledge-grid">
       <div class="knowledge-card">
         <h3>BEGINNER</h3>
@@ -571,7 +1058,7 @@ title: AI Knowledge Base
       </div>
       <div class="knowledge-card">
         <h3>BUILDER</h3>
-        <p>Try image generation (DALL-E, Stable Diffusion), video (Runway), or code (Copilot). Create something today.</p>
+        <p>Try image generation, video creation, or code AI. Create something today with free tools.</p>
       </div>
       <div class="knowledge-card">
         <h3>FUTURE</h3>
@@ -579,10 +1066,10 @@ title: AI Knowledge Base
       </div>
     </div>
     <div class="cta-box">
-      <p>◆ START YOUR AI JOURNEY TODAY ◆</p>
-      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-        <a href="{{ site.baseurl }}/knowledge/" class="back-link">READ THE TIMELINE</a>
+      <p>◆ START YOUR AI JOURNEY TODAY - ALL TOOLS ARE FREE ◆</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem;">
         <a href="{{ site.baseurl }}/" class="back-link">USE FREE TOOLS</a>
+        <a href="{{ site.baseurl }}/stores/" class="back-link">EXPLORE ALL TOOLS</a>
       </div>
     </div>
   </section>
