@@ -8,6 +8,12 @@ title: Make Money with AI
 body {
   background: #000033;
   font-family: "Comic Sans MS", "Times New Roman", sans-serif;
+  background-image: 
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 3px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 2px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 3px);
+  background-size: 550px 550px, 350px 350px, 250px 250px;
+  background-position: 0 0, 40px 60px, 130px 270px;
 }
 
 .hero {
@@ -15,12 +21,41 @@ body {
   border: 4px solid #ffff00;
   box-shadow: 8px 8px 0 #000;
   text-align: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "★ ★ ★ WELCOME TO THE FUTURE OF MONEY ★ ★ ★";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  right: 0;
+  background: #ff0000;
+  color: #ffff00;
+  font-size: 0.8rem;
+  padding: 5px;
+  animation: scroll-left 8s linear infinite;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
 }
 
 .hero h1 {
   font-size: 3rem;
   text-shadow: 3px 3px 0 #ff0000;
   animation: rainbow 2s infinite;
+  color: #ffff00 !important;
+}
+
+.hero h1::before {
+  content: "🎮 ";
+}
+.hero h1::after {
+  content: " 🎮";
 }
 
 @keyframes rainbow {
@@ -29,6 +64,160 @@ body {
   50% { color: #00ff00; }
   75% { color: #00ffff; }
   100% { color: #ff0000; }
+}
+
+/* Neon glow effects */
+.neon-text {
+  color: #00ff00;
+  text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+.neon-pink {
+  color: #ff00ff;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff;
+}
+
+/* Retro button style */
+.retro-btn {
+  background: #0000ff;
+  border: 3px outset #666;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+.retro-btn:hover {
+  background: #0000aa;
+  border-style: inset;
+}
+
+/* Star divider */
+.star-divider {
+  text-align: center;
+  color: #ffff00;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  animation: twinkle 1s infinite alternate;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* Table-style borders */
+.retro-table {
+  border: 3px solid #00ff00;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.retro-table th {
+  background: #ff00ff;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid #ffff00;
+}
+
+.retro-table td {
+  background: #000080;
+  color: #00ff00;
+  padding: 8px;
+  border: 1px solid #00ffff;
+}
+
+/* Under construction banner */
+.under-construction {
+  background: #ffff00;
+  color: #ff0000;
+  text-align: center;
+  padding: 10px;
+  border: 3px dashed #ff0000;
+  font-weight: bold;
+  animation: pulse 0.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+/* Visitor counter style */
+.visitor-counter {
+  background: #000;
+  border: 3px inset #666;
+  color: #00ff00;
+  font-family: "Courier New", monospace;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+/* Retro hr */
+.retro-hr {
+  border: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff);
+  margin: 2rem 0;
+}
+
+/* More 90s decorations */
+.diamond-decor {
+  color: #00ffff;
+  font-size: 1.5rem;
+}
+
+.gif-icon {
+  font-size: 2rem;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Sparkle effect */
+.sparkle {
+  position: relative;
+}
+
+.sparkle::after {
+  content: "✨";
+  position: absolute;
+  right: -20px;
+  top: 0;
+  animation: sparkle 1s infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0.5); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+/* Scanline effect */
+.scanlines {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
 }
 
 .store-card {
@@ -41,6 +230,7 @@ body {
 .store-card:hover {
   transform: translate(-2px, -2px);
   box-shadow: 8px 8px 0 #ffff00;
+  background: #0000aa;
 }
 
 .skill-level {
@@ -138,6 +328,7 @@ body {
 </style>
 
 <section class="hero">
+  <div class="scanlines"></div>
   <div class="marquee-container">
     <div class="marquee-text">★ WELCOME TO THE FUTURE OF MAKING MONEY ★ NO EXPERIENCE NEEDED ★ 100% FREE TO START ★ START EARNING TODAY ★</div>
   </div>
@@ -145,9 +336,20 @@ body {
   <p style="color: #ffff00; font-size: 1.3rem;">Practical ways to earn income using artificial intelligence. Start today with free tools.</p>
   <p class="hero-tagline" style="color: #00ff00; font-weight: bold; font-size: 1.5rem;">◆ 100% Free to Start ◆</p>
   <p style="color: #fff;">🎮 Press M to access this page from anywhere! 🎮</p>
+  
+  <div class="star-divider">♦ ♦ ♦ ♦ ♦ ♦ ♦ ♦ ♦ ♦</div>
+  
+  <div class="visitor-counter">
+    👁️ YOU ARE VISITOR #<span style="color: #ff00ff;">0</span><span style="color: #00ff00;">8</span><span style="color: #ffff00;">4</span><span style="color: #00ffff;">2</span><span style="color: #ff0000;">1</span><span style="color: #00ff00;">5</span> 👁️
+  </div>
+  
+  <p style="color: #00ffff; margin-top: 10px;">★ BEST VIEWED WITH NETSCAPE ★ BEST VIEWED AT 800x600 ★</p>
 </section>
 
 <section class="quick-start">
+  <div class="under-construction">
+    🚧 NEW METHODS ADDED REGULARLY! CHECK BACK OFTEN! 🚧
+  </div>
   <h2 style="color: #ff00ff; text-shadow: 2px 2px 0 #000;">🚀 QUICK START CHECKLIST</h2>
   <div class="checklist">
     <label style="color: #00ff00;"><input type="checkbox"> <strong>Step 1:</strong> Choose 1 method from below (start with beginner ⭐)</label>
@@ -158,6 +360,7 @@ body {
 </section>
 
 <section class="stores-grid">
+  <div class="star-divider">♦ SELECT YOUR MONEY METHOD ♦</div>
   <a href="#content-creation" class="store-card">
     <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=200&h=150&fit=crop" alt="Content Creation" class="tool-image">
     <span class="skill-level">⭐ Beginner</span>
@@ -265,6 +468,92 @@ body {
     <span class="time-profit">⏱️ 1-3 months</span>
     <span class="visit">LEARN MORE &rarr;</span>
   </a>
+</section>
+
+<section class="content-section" style="background: #000; border: 4px double #ffff00;">
+  <h2 style="color: #00ff00; text-shadow: 0 0 10px #00ff00;">📊 QUICK REFERENCE TABLE 📊</h2>
+  <p style="color: #00ffff;">★ Compare all methods at a glance! ★</p>
+  
+  <table class="retro-table">
+    <tr>
+      <th>♦ METHOD ♦</th>
+      <th>♦ SKILL ♦</th>
+      <th>♦ TIME ♦</th>
+      <th>♦ INCOME ♦</th>
+    </tr>
+    <tr>
+      <td>📝 Content Creation</td>
+      <td>⭐ Beginner</td>
+      <td>1-7 days</td>
+      <td>$500-10K/mo</td>
+    </tr>
+    <tr>
+      <td>💻 Freelance Services</td>
+      <td>⭐ Beginner</td>
+      <td>1-14 days</td>
+      <td>$1K-15K/mo</td>
+    </tr>
+    <tr>
+      <td>🛒 E-Commerce</td>
+      <td>⭐⭐ Int.</td>
+      <td>1-4 weeks</td>
+      <td>$500-50K/mo</td>
+    </tr>
+    <tr>
+      <td>🎬 YouTube Auto</td>
+      <td>⭐⭐ Int.</td>
+      <td>1-3 months</td>
+      <td>$100-10K/mo</td>
+    </tr>
+    <tr>
+      <td>🎯 Prompt Engineer</td>
+      <td>⭐ Beginner</td>
+      <td>Same day</td>
+      <td>$100-5K/mo</td>
+    </tr>
+    <tr>
+      <td>📚 Course Creator</td>
+      <td>⭐⭐ Int.</td>
+      <td>1-4 weeks</td>
+      <td>$500-20K/mo</td>
+    </tr>
+    <tr>
+      <td>🤝 Affiliate</td>
+      <td>⭐ Beginner</td>
+      <td>1-7 days</td>
+      <td>$100-10K/mo</td>
+    </tr>
+    <tr>
+      <td>🎧 Transcription</td>
+      <td>⭐ Beginner</td>
+      <td>Same day</td>
+      <td>$500-3K/mo</td>
+    </tr>
+    <tr>
+      <td>🎨 Image Design</td>
+      <td>⭐ Beginner</td>
+      <td>1-7 days</td>
+      <td>$200-5K/mo</td>
+    </tr>
+    <tr>
+      <td>🤖 Chatbots</td>
+      <td>⭐⭐⭐ Adv.</td>
+      <td>1-4 weeks</td>
+      <td>$1K-20K/proj</td>
+    </tr>
+    <tr>
+      <td>🏷️ Data Labeling</td>
+      <td>⭐ Beginner</td>
+      <td>Same day</td>
+      <td>$500-4K/mo</td>
+    </tr>
+    <tr>
+      <td>📊 Consulting</td>
+      <td>⭐⭐⭐ Adv.</td>
+      <td>1-3 months</td>
+      <td>$5K-50K/proj</td>
+    </tr>
+  </table>
 </section>
 
 <section class="content-section" id="content-creation">
@@ -643,6 +932,7 @@ body {
 </section>
 
 <section class="content-section" id="sample-prompts">
+  <div class="star-divider">♦ ♦ COPY & PASTE THESE PROMPTS ♦ ♦</div>
   <h2 style="background: linear-gradient(90deg, #ff0000, #ff8800, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">📋 SAMPLE PROMPTS TO GET STARTED</h2>
   <p>Copy and paste these prompts to start earning immediately:</p>
   
@@ -729,7 +1019,19 @@ Each email should be 150-200 words, conversational, and include a clear CTA.</pr
 </section>
 
 <section class="cta-banner">
+  <div class="under-construction">
+    🎉 START YOUR JOURNEY TODAY! 🎉
+  </div>
   <p style="font-size: 1.5rem; color: #ffff00;">◆ START TODAY - ALL THESE METHODS USE FREE AI TOOLS ◆</p>
   <p style="font-size: 1.3rem; color: #fff;"><strong>Choose ONE method. Take action. Get your first dollar this week.</strong></p>
   <p style="font-size: 2rem; color: #00ff00;">🎮 GOOD LUCK! 🎮</p>
+  
+  <hr class="retro-hr">
+  
+  <p style="color: #ff00ff;">★ THANK YOU FOR VISITING! PLEASE COME BACK AGAIN! ★</p>
+  <div class="visitor-counter">
+    👁️ HIT COUNT: <span style="color: #00ff00;">1</span><span style="color: #ffff00;">2</span><span style="color: #00ffff;">3</span><span style="color: #ff00ff;">4</span><span style="color: #ff0000;">5</span><span style="color: #00ff00;">6</span><span style="color: #ffff00;">7</span> 👁️
+  </div>
+  
+  <p style="color: #666; margin-top: 20px; font-size: 0.8rem;">© 1996-2026 CLOUDFRONT INC. | BEST VIEWED WITH NETSCAPE NAVIGATOR | MADE WITH ☕ AND 💾</p>
 </section>
