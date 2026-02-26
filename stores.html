@@ -11,7 +11,7 @@ title: AI Tools
 
 <section class="stores-grid">
   {% for store in site.stores %}
-  <a href="{{ store.url }}" class="store-card">
+  <a href="{{ store.website }}" target="_blank" class="store-card">
     {% if store.image %}
     <div class="store-card-image">
       <img src="{{ site.baseurl }}/assets/images/{{ store.image }}" alt="{{ store.name }}">

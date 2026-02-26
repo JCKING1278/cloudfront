@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect x="10" y="10" width="80" height="80" rx="5" fill="#3d2914" stroke="#ffb000" stroke-width="3"/>
+  <text x="50" y="40" text-anchor="middle" fill="#ffb000" font-family="monospace" font-size="24" font-weight="bold">AI</text>
+  <text x="50" y="60" text-anchor="middle" fill="#f5f5dc" font-family="monospace" font-size="14">LEARNING</text>
+  <text x="50" y="75" text-anchor="middle" fill="#556b2f" font-family="monospace" font-size="10">FREE FOREVER</text>
+</svg>

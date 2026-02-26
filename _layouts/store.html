@@ -11,6 +11,10 @@ layout: default
     {% endif %}
     <h1>{{ page.name }}</h1>
     <p class="tagline">{{ page.tagline }}</p>
+    
+    {% if page.website %}
+    <a href="{{ page.website }}" target="_blank" class="cta-button">★ ACCESS THIS TOOL NOW ★</a>
+    {% endif %}
   </div>
   
   <div class="store-intro">

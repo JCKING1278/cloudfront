@@ -12,6 +12,33 @@ title: AI Knowledge Base
     <p class="tagline">From 1943 to the Future - Interactive Journey Through Time</p>
   </div>
 
+  <!-- SEARCH BOX -->
+  <div class="search-container">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search the knowledge base... (try 'GPT', 'transformer', 'Deep Blue')" onkeyup="searchKnowledge()">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+
+  <!-- EXPAND/COLLAPSE CONTROLS -->
+  <div class="section-controls">
+    <button onclick="toggleAllSections('expand')" class="control-btn">[ + EXPAND ALL ]</button>
+    <button onclick="toggleAllSections('collapse')" class="control-btn">[ - COLLAPSE ALL ]</button>
+  </div>
+
+  <!-- QUICK TABLE OF CONTENTS -->
+  <div class="toc">
+    <strong>▸ QUICK JUMP:</strong>
+    <a href="#part1">1940s-50s</a> |
+    <a href="#part2">1960s-70s</a> |
+    <a href="#part3">1980s</a> |
+    <a href="#part4">1990s</a> |
+    <a href="#part5">2000s</a> |
+    <a href="#part6">2010s</a> |
+    <a href="#part7">2020-24</a> |
+    <a href="#part8">2024-26</a> |
+    <a href="#part9">Hardware</a> |
+    <a href="#part10">Future</a>
+  </div>
+
   <!-- TIMELINE NAVIGATOR -->
   <section class="timeline-nav">
     <div class="nav-grid">
@@ -55,6 +82,13 @@ title: AI Knowledge Base
       <div class="try-it-box">
         <strong>▸ TRY IT NOW:</strong> <a href="https://playground.tensorflow.org" target="_blank">Build a Neural Network</a> in your browser!
       </div>
+      <div class="quiz-box">
+        <strong>▸ QUIZ: Neural Networks</strong>
+        <p>Q: Who created the first mathematical model of a neural network in 1943?</p>
+        <p>A: <span class="answer">Warren McCulloch & Walter Pitts</span></p>
+        <p>Q: How many parameters do modern AI models have?</p>
+        <p>A: 100+ <span class="answer">trillion</span> parameters</p>
+      </div>
     </div>
 
     <div class="timeline-era">
@@ -62,6 +96,23 @@ title: AI Knowledge Base
         <span class="year">1945</span>
         <h3>1.2 ENIAC - First General Computer</h3>
       </div>
+      </div>
+      <div class="key-figures">
+        <strong>▸ KEY FIGURES - Hardware Pioneers:</strong>
+        <div class="figure-card">
+          <strong>John Bardeen</strong>
+          <span>Transistor co-inventor | 2x Nobel Prize | 1956, 1972</span>
+        </div>
+        <div class="figure-card">
+          <strong>Jack Kilby</strong>
+          <span>Integrated circuit inventor | Nobel Prize 2000</span>
+        </div>
+        <div class="figure-card">
+          <strong>Gordon Moore</strong>
+          <span>Intel co-founder | Moore's Law creator</span>
+        </div>
+      </div>
+    </div>
       <p>The Electronic Numerical Integrator and Computer (ENIAC) becomes operational. It's the first programmable electronic digital computer, weighing 30 tons.</p>
       <div class="comparison-box">
         <div class="compare-col then">
@@ -101,6 +152,13 @@ title: AI Knowledge Base
       <div class="try-it-box">
         <strong>▸ TRY IT NOW:</strong> Chat with AI at <a href="https://chat.openai.com" target="_blank">ChatGPT</a> or <a href="https://claude.ai" target="_blank">Claude</a>
       </div>
+      <div class="quiz-box">
+        <strong>▸ QUIZ: The Turing Test</strong>
+        <p>Q: Who proposed the Turing Test in 1950?</p>
+        <p>A: <span class="answer">Alan Turing</span> | B: John McCarthy | C: Marvin Minsky | D: Claude Shannon</p>
+        <p>Q: What is required for a machine to pass the Turing Test?</p>
+        <p>A: <span class="answer">Convince a human it's human through conversation</span></p>
+      </div>
     </div>
 
     <div class="timeline-era">
@@ -110,9 +168,24 @@ title: AI Knowledge Base
       </div>
       <p>John McCarthy coins "Artificial Intelligence" at Dartmouth College. The summer conference brings together pioneers who believe machines could simulate every aspect of learning.</p>
       <div class="tech-box">
-        <strong>KEY FIGURES:</strong> John McCarthy, Marvin Minsky, Claude Shannon<br>
+        <strong>KEY FIGURES:</strong> John McCarthy, Marvin Minsky, Claude Shannon, Allen Newell, Herbert Simon<br>
         <strong>FUNDING:</strong> $8,500 for original workshop<br>
         <strong>TODAY:</strong> $100B+ annual AI investment
+      </div>
+      <div class="key-figures">
+        <strong>▸ KEY FIGURES:</strong>
+        <div class="figure-card">
+          <strong>John McCarthy</strong>
+          <span>Coined "Artificial Intelligence" | Created Lisp | 1971 Turing Award</span>
+        </div>
+        <div class="figure-card">
+          <strong>Marvin Minsky</strong>
+          <span>AI pioneer | Co-founded MIT AI Lab | Neural network pioneer</span>
+        </div>
+        <div class="figure-card">
+          <strong>Alan Turing</strong>
+          <span>Founder of CS | Turing Test | WWII codebreaker</span>
+        </div>
       </div>
     </div>
 
@@ -201,6 +274,13 @@ title: AI Knowledge Base
       </div>
       <div class="try-it-box">
         <strong>▸ TRY IT NOW:</strong> Compare simple chatbots to advanced AI at <a href="https://character.ai" target="_blank">Character.AI</a>
+      </div>
+      <div class="quiz-box">
+        <strong>▸ QUIZ: First Chatbots</strong>
+        <p>Q: What was the first chatbot called?</p>
+        <p>A: <span class="answer">ELIZA</span> | B: ALICE | C: Jabberwacky | D: SmarterChild</p>
+        <p>Q: Who created ELIZA?</p>
+        <p>A: Alan Turing | B: <span class="answer">Joseph Weizenbaum</span> | C: Marvin Minsky | D: John McCarthy</p>
       </div>
     </div>
 
@@ -380,6 +460,13 @@ title: AI Knowledge Base
       <div class="try-it-box">
         <strong>▸ TRY IT NOW:</strong> Play chess against AI at <a href="https://lichess.org" target="_blank">Lichess.org</a>
       </div>
+      <div class="quiz-box">
+        <strong>▸ QUIZ: AI vs Human Champions</strong>
+        <p>Q: What year did Deep Blue defeat Kasparov?</p>
+        <p>A: 1995 | B: <span class="answer">1997</span> | C: 1999 | D: 2001</p>
+        <p>Q: What game did AlphaGo beat a champion in?</p>
+        <p>A: Chess | B: Checkers | C: <span class="answer">Go</span> | D: Poker</p>
+      </div>
     </div>
 
     <div class="timeline-era">
@@ -537,6 +624,21 @@ title: AI Knowledge Base
       <div class="try-it-box">
         <strong>▸ TRY IT NOW:</strong> Try AI image recognition at <a href="https://cloud.google.com/vision" target="_blank">Google Cloud Vision</a>
       </div>
+      <div class="key-figures">
+        <strong>▸ KEY FIGURES - Deep Learning Revolution:</strong>
+        <div class="figure-card">
+          <strong>Geoffrey Hinton</strong>
+          <span>"Godfather of Deep Learning" | Backpropagation pioneer | 2024 Nobel Prize</span>
+        </div>
+        <div class="figure-card">
+          <strong>Yann LeCun</strong>
+          <span>CNN inventor | Meta AI chief | 2018 Turing Award</span>
+        </div>
+        <div class="figure-card">
+          <strong>Andrew Ng</strong>
+          <span>Google Brain founder | Coursera co-founder | AI education pioneer</span>
+        </div>
+      </div>
     </div>
 
     <div class="timeline-era">
@@ -576,6 +678,13 @@ title: AI Knowledge Base
       <div class="tech-box">
         <strong>LEGACY:</strong> GPT, Claude, Gemini, Llama - all built on transformers<br>
         <strong>IMPACT:</strong> The foundation of modern AI
+      </div>
+      <div class="quiz-box">
+        <strong>▸ QUIZ: Transformers</strong>
+        <p>Q: What paper introduced the Transformer architecture?</p>
+        <p>A: "ImageNet" | B: "Deep Learning" | C: <span class="answer">"Attention Is All You Need"</span> | D: "BERT"</p>
+        <p>Q: Which company created the Transformer?</p>
+        <p>A: <span class="answer">Google</span> | B: OpenAI | C: Microsoft | D: Meta</p>
       </div>
     </div>
 
@@ -634,6 +743,13 @@ title: AI Knowledge Base
           </ul>
         </div>
       </div>
+      <div class="quiz-box">
+        <strong>▸ QUIZ: GPT Generations</strong>
+        <p>Q: How many parameters did GPT-3 have?</p>
+        <p>A: 1.5B | B: <span class="answer">175B</span> | C: 1.7T | D: 100B</p>
+        <p>Q: Which company released GPT-3?</p>
+        <p>A: Google | B: <span class="answer">OpenAI</span> | C: Meta | D: Anthropic</p>
+      </div>
     </div>
 
     <div class="timeline-era">
@@ -659,6 +775,13 @@ title: AI Knowledge Base
       </div>
       <div class="try-it-box">
         <strong>▸ TRY IT NOW:</strong> Start chatting at <a href="https://chat.openai.com" target="_blank">ChatGPT</a> (free!)
+      </div>
+      <div class="quiz-box">
+        <strong>▸ QUIZ: ChatGPT Phenomenon</strong>
+        <p>Q: How long did ChatGPT take to reach 100 million users?</p>
+        <p>A: 1 year | B: <span class="answer">2 months</span> | C: 6 months | D: 1 month</p>
+        <p>Q: What was ChatGPT built on?</p>
+        <p>A: BERT | B: <span class="answer">GPT-3.5</span> | C: Llama | D: Claude</p>
       </div>
     </div>
 
@@ -717,6 +840,21 @@ title: AI Knowledge Base
       </div>
       <div class="try-it-box">
         <strong>▸ TRY IT NOW:</strong> Try AI agents at <a href="https://agentgpt.reworkd.ai" target="_blank">AgentGPT</a>
+      </div>
+      <div class="key-figures">
+        <strong>▸ KEY FIGURES - Modern AI Leaders:</strong>
+        <div class="figure-card">
+          <strong>Sam Altman</strong>
+          <span>OpenAI CEO | GPT series leader | ChatGPT creator</span>
+        </div>
+        <div class="figure-card">
+          <strong>Dario Amodei</strong>
+          <span>Anthropic CEO | Claude creator | AI safety focus</span>
+        </div>
+        <div class="figure-card">
+          <strong>Demis Hassabis</strong>
+          <span>Google DeepMind CEO | AlphaGo/AlphaFold | AGI pursuit</span>
+        </div>
       </div>
     </div>
 
@@ -814,6 +952,21 @@ title: AI Knowledge Base
             <li>Heat: Low</li>
             <li>Lifespan: Decades</li>
           </ul>
+        </div>
+      </div>
+      <div class="key-figures">
+        <strong>▸ KEY FIGURES - Hardware Pioneers:</strong>
+        <div class="figure-card">
+          <strong>John Bardeen</strong>
+          <span>Transistor co-inventor | 2x Nobel Prize | 1956, 1972</span>
+        </div>
+        <div class="figure-card">
+          <strong>Jack Kilby</strong>
+          <span>Integrated circuit inventor | Nobel Prize 2000</span>
+        </div>
+        <div class="figure-card">
+          <strong>Gordon Moore</strong>
+          <span>Intel co-founder | Moore's Law creator</span>
         </div>
       </div>
     </div>
