@@ -15,6 +15,7 @@
       <nav>
         <a href="{{ site.baseurl }}/">[ HOME ]</a>
         <a href="{{ site.baseurl }}/knowledge/">[ KNOWLEDGE ]</a>
+        <a href="{{ site.baseurl }}/money/">[ MONEY ]</a>
         <a href="{{ site.baseurl }}/stores/">[ TOOLS ]</a>
       </nav>
     </div>
@@ -28,6 +29,7 @@
     <p class="footer-links">
       <a href="{{ site.baseurl }}/">Home</a> | 
       <a href="{{ site.baseurl }}/knowledge/">Knowledge</a> | 
+      <a href="{{ site.baseurl }}/money/">Money</a> | 
       <a href="{{ site.baseurl }}/stores/">Tools</a>
     </p>
   </footer>
@@ -37,7 +39,7 @@
   
   <!-- Keyboard Shortcuts Hint -->
   <div class="keyboard-hint">
-    Press <strong>H</strong> Home | <strong>K</strong> Knowledge | <strong>T</strong> Tools | <strong>/</strong> Search
+    Press <strong>H</strong> Home | <strong>K</strong> Knowledge | <strong>M</strong> Money | <strong>T</strong> Tools | <strong>/</strong> Search
   </div>
   
   <!-- Loading indicator -->
@@ -53,10 +55,11 @@
     <div class="modal-content">
       <span onclick="document.getElementById('helpModal').style.display='none'" class="close">&times;</span>
       <h2>▓ HELP & GUIDE ▓</h2>
-      <div class="help-section">
+        <div class="help-section">
         <h3>Navigation</h3>
         <p><strong>H</strong> - Go to Home</p>
         <p><strong>K</strong> - Go to Knowledge Base</p>
+        <p><strong>M</strong> - Go to Make Money</p>
         <p><strong>T</strong> - Go to Tools</p>
         <p><strong>/</strong> - Focus Search</p>
         <p><strong>Esc</strong> - Close Search/Modal</p>
@@ -186,6 +189,8 @@
       window.location.href = '{{ site.baseurl }}/';
     } else if (e.key === 'k') {
       window.location.href = '{{ site.baseurl }}/knowledge/';
+    } else if (e.key === 'm') {
+      window.location.href = '{{ site.baseurl }}/money/';
     } else if (e.key === 't') {
       window.location.href = '{{ site.baseurl }}/stores/';
     } else if (e.key === 'Escape') {

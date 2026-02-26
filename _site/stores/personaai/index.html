@@ -15,6 +15,7 @@
       <nav>
         <a href="/cloudfront/">[ HOME ]</a>
         <a href="/cloudfront/knowledge/">[ KNOWLEDGE ]</a>
+        <a href="/cloudfront/money/">[ MONEY ]</a>
         <a href="/cloudfront/stores/">[ TOOLS ]</a>
       </nav>
     </div>
@@ -198,6 +199,7 @@
     <p class="footer-links">
       <a href="/cloudfront/">Home</a> | 
       <a href="/cloudfront/knowledge/">Knowledge</a> | 
+      <a href="/cloudfront/money/">Money</a> | 
       <a href="/cloudfront/stores/">Tools</a>
     </p>
   </footer>
@@ -207,7 +209,7 @@
   
   <!-- Keyboard Shortcuts Hint -->
   <div class="keyboard-hint">
-    Press <strong>H</strong> Home | <strong>K</strong> Knowledge | <strong>T</strong> Tools | <strong>/</strong> Search
+    Press <strong>H</strong> Home | <strong>K</strong> Knowledge | <strong>M</strong> Money | <strong>T</strong> Tools | <strong>/</strong> Search
   </div>
   
   <!-- Loading indicator -->
@@ -223,10 +225,11 @@
     <div class="modal-content">
       <span onclick="document.getElementById('helpModal').style.display='none'" class="close">&times;</span>
       <h2>▓ HELP & GUIDE ▓</h2>
-      <div class="help-section">
+        <div class="help-section">
         <h3>Navigation</h3>
         <p><strong>H</strong> - Go to Home</p>
         <p><strong>K</strong> - Go to Knowledge Base</p>
+        <p><strong>M</strong> - Go to Make Money</p>
         <p><strong>T</strong> - Go to Tools</p>
         <p><strong>/</strong> - Focus Search</p>
         <p><strong>Esc</strong> - Close Search/Modal</p>
@@ -356,6 +359,8 @@
       window.location.href = '/cloudfront/';
     } else if (e.key === 'k') {
       window.location.href = '/cloudfront/knowledge/';
+    } else if (e.key === 'm') {
+      window.location.href = '/cloudfront/money/';
     } else if (e.key === 't') {
       window.location.href = '/cloudfront/stores/';
     } else if (e.key === 'Escape') {
