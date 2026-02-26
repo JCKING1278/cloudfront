@@ -328,6 +328,13 @@ body {
 }
 </style>
 
+<nav style="background: #000080; border: 3px solid #00FF00; padding: 10px; text-align: center; margin-bottom: 20px;">
+  <a href="/cloudfront/" style="color: #FFFF00; text-decoration: none; margin: 0 15px; font-family: 'Courier New', monospace; font-weight: bold;">🏠 HOME</a>
+  <a href="/cloudfront/money.html" style="color: #00FF00; text-decoration: none; margin: 0 15px; font-family: 'Courier New', monospace; font-weight: bold;">💰 MONEY AI</a>
+  <a href="/cloudfront/stores.html" style="color: #FF00FF; text-decoration: none; margin: 0 15px; font-family: 'Courier New', monospace; font-weight: bold;">🛒 STORES</a>
+  <a href="/cloudfront/knowledge/" style="color: #00FFFF; text-decoration: none; margin: 0 15px; font-family: 'Courier New', monospace; font-weight: bold;">📚 KNOWLEDGE</a>
+</nav>
+
 <section class="hero">
   <div class="scanlines"></div>
   <div class="marquee-container">
