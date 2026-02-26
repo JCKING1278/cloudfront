@@ -346,6 +346,113 @@ body {
   <p style="color: #00ffff; margin-top: 10px;">★ BEST VIEWED WITH NETSCAPE ★ BEST VIEWED AT 800x600 ★</p>
 </section>
 
+<!-- QUICK CASH SECTION -->
+<section class="content-section" style="background: linear-gradient(180deg, #8B0000 0%, #FF0000 100%); border: 4px solid #FFFF00; animation: pulse 0.5s infinite;">
+  <h2 style="color: #FFFF00; text-shadow: 3px 3px 0 #FF0000; font-size: 2rem; text-align: center;">🔥🔥🔥 QUICK CASH - SAME DAY PAYOUT 🔥🔥🔥</h2>
+  <p style="color: #FFF; font-size: 1.2rem; text-align: center; font-weight: bold;">★ NEED CASH NOW? THESE METHODS PAY WITHIN HOURS! ★</p>
+  
+  <div class="stores-grid" style="margin-top: 1rem;">
+    <a href="https://www.doordash.com/driver/signup/" target="_blank" class="store-card" style="background: #FF6600; border-color: #FFFF00;">
+      <span class="skill-level" style="background: #FF0000; animation: blink 0.3s infinite;">🔥 SAME DAY</span>
+      <h2>🍔 Food Delivery</h2>
+      <p class="tagline">Drive & deliver food - cash out daily!</p>
+      <p style="color: #00FF00; font-weight: bold;">$15-30/hr</p>
+      <span class="visit">SIGN UP NOW &rarr;</span>
+    </a>
+
+    <a href="https://www.grubhub.com/driver/" target="_blank" class="store-card" style="background: #FF6600; border-color: #FFFF00;">
+      <span class="skill-level" style="background: #FF0000; animation: blink 0.3s infinite;">🔥 SAME DAY</span>
+      <h2>🍕 Grubhub</h2>
+      <p class="tagline">Deliver food - instant pay option</p>
+      <p style="color: #00FF00; font-weight: bold;">$15-25/hr</p>
+      <span class="visit">SIGN UP NOW &rarr;</span>
+    </a>
+
+    <a href="https://www.redcross.org/donate-blood/plasma-donation.html" target="_blank" class="store-card" style="background: #8B0000; border-color: #FF0000;">
+      <span class="skill-level" style="background: #FF0000; animation: blink 0.3s infinite;">🔥 SAME DAY</span>
+      <h2>💉 Sell Plasma</h2>
+      <p class="tagline">Donate plasma - get paid same day</p>
+      <p style="color: #00FF00; font-weight: bold;">$20-50/run</p>
+      <span class="visit">FIND CENTER &rarr;</span>
+    </a>
+
+    <a href="https://www.facebook.com/marketplace/" target="_blank" class="store-card" style="background: #0000FF; border-color: #00FFFF;">
+      <span class="skill-level" style="background: #00FF00;">⚡ 1-3 DAYS</span>
+      <h2>📦 Sell Items</h2>
+      <p class="tagline">Facebook Marketplace - meet & get cash</p>
+      <p style="color: #00FF00; font-weight: bold;">$10-1000+</p>
+      <span class="visit">START SELLING &rarr;</span>
+    </a>
+
+    <a href="https://www.uber.com/drive/" target="_blank" class="store-card" style="background: #000000; border-color: #00FF00;">
+      <span class="skill-level" style="background: #FF0000; animation: blink 0.3s infinite;">🔥 SAME DAY</span>
+      <h2>🚗 Uber Driver</h2>
+      <p class="tagline">Drive passengers - instant cashout</p>
+      <p style="color: #00FF00; font-weight: bold;">$20-35/hr</p>
+      <span class="visit">START DRIVING &rarr;</span>
+    </a>
+
+    <a href="https://www.lyft.com/driver" target="_blank" class="store-card" style="background: #FF00FF; border-color: #FFFF00;">
+      <span class="skill-level" style="background: #FF0000; animation: blink 0.3s infinite;">🔥 SAME DAY</span>
+      <h2>🚙 Lyft Driver</h2>
+      <p class="tagline">Drive & earn - Express Pay available</p>
+      <p style="color: #00FF00; font-weight: bold;">$18-30/hr</p>
+      <span class="visit">SIGN UP &rarr;</span>
+    </a>
+  </div>
+  
+  <h3 style="color: #FFFF00; text-align: center; margin-top: 1rem;">📱 APPS THAT PAY WITHIN 1-3 DAYS</h3>
+  
+  <table class="retro-table">
+    <tr>
+      <th>♦ APP ♦</th>
+      <th>♦ WHAT YOU DO ♦</th>
+      <th>♦ PAYOUT ♦</th>
+      <th>♦ SIGN UP ♦</th>
+    </tr>
+    <tr>
+      <td>📝 Swagbucks</td>
+      <td>Surveys, videos, shopping</td>
+      <td>$10-500/mo</td>
+      <td><a href="https://www.swagbucks.com/" target="_blank" style="color: #00FF00;">JOIN FREE</a></td>
+    </tr>
+    <tr>
+      <td>📝 Survey Junkie</td>
+      <td>Share opinions</td>
+      <td>$1-50/survey</td>
+      <td><a href="https://www.surveyjunkie.com/" target="_blank" style="color: #00FF00;">JOIN FREE</a></td>
+    </tr>
+    <tr>
+      <td>🏷️ Amazon MTurk</td>
+      <td>Micro tasks, data labeling</td>
+      <td>$100-500/mo</td>
+      <td><a href="https://www.mturk.com/" target="_blank" style="color: #00FF00;">JOIN FREE</a></td>
+    </tr>
+    <tr>
+      <td>🎯 FeaturePoints</td>
+      <td>App trials, surveys</td>
+      <td>$50-200/mo</td>
+      <td><a href="https://featurepoints.com/" target="_blank" style="color: #00FF00;">JOIN FREE</a></td>
+    </tr>
+    <tr>
+      <td>📦 TaskRabbit</td>
+      <td>Local tasks & gigs</td>
+      <td>$20-100/task</td>
+      <td><a href="https://www.taskrabbit.com/" target="_blank" style="color: #00FF00;">JOIN FREE</a></td>
+    </tr>
+    <tr>
+      <td>🛒 Instacart</td>
+      <td>Shopper & delivery</td>
+      <td>$15-25/hr</td>
+      <td><a href="https://www.instacart.com/store/become-a-shopper/" target="_blank" style="color: #00FF00;">JOIN FREE</a></td>
+    </tr>
+  </table>
+  
+  <div class="under-construction" style="background: #FF0000; border-color: #FFFF00;">
+    ⚡⚡⚡ START TODAY - GET PAID THIS WEEK! ⚡⚡⚡
+  </div>
+</section>
+
 <section class="quick-start">
   <div class="under-construction">
     🚧 NEW METHODS ADDED REGULARLY! CHECK BACK OFTEN! 🚧
