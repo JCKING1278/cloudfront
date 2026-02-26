@@ -348,7 +348,7 @@ body {
   <div class="star-divider">♦ ♦ ♦ ♦ ♦ ♦ ♦ ♦ ♦ ♦</div>
   
   <div class="visitor-counter">
-    👁️ YOU ARE VISITOR #<span style="color: #ff00ff;">0</span><span style="color: #00ff00;">8</span><span style="color: #ffff00;">4</span><span style="color: #00ffff;">2</span><span style="color: #ff0000;">1</span><span style="color: #00ff00;">5</span> 👁️
+    👁️ YOU ARE VISITOR #<span style="color: #ff00ff;">1</span><span style="color: #00ff00;">2</span><span style="color: #ffff00;">7</span><span style="color: #00ffff;">4</span><span style="color: #ff0000;">8</span><span style="color: #00ff00;">9</span><span style="color: #ffff00;">3</span> 👁️
   </div>
   
   <p style="color: #00ffff; margin-top: 10px;">★ BEST VIEWED WITH NETSCAPE ★ BEST VIEWED AT 800x600 ★</p>
@@ -712,6 +712,36 @@ body {
       <td>⭐⭐⭐ Adv.</td>
       <td>1-3 months</td>
       <td>$5K-50K/proj</td>
+    </tr>
+    <tr>
+      <td>🎙️ Voiceover</td>
+      <td>⭐ Beginner</td>
+      <td>1-3 days</td>
+      <td>$300-5K/mo</td>
+    </tr>
+    <tr>
+      <td>🎥 AI Video</td>
+      <td>⭐ Beginner</td>
+      <td>1-7 days</td>
+      <td>$500-10K/mo</td>
+    </tr>
+    <tr>
+      <td>📖 Book Publishing</td>
+      <td>⭐ Beginner</td>
+      <td>1-4 weeks</td>
+      <td>$100-10K/mo</td>
+    </tr>
+    <tr>
+      <td>📱 TikTok/Shorts</td>
+      <td>⭐ Beginner</td>
+      <td>1-4 weeks</td>
+      <td>$100-10K/mo</td>
+    </tr>
+    <tr>
+      <td>🚀 AI SaaS</td>
+      <td>⭐⭐⭐ Adv.</td>
+      <td>1-3 months</td>
+      <td>$1K-100K/mo</td>
     </tr>
   </table>
 </section>
@@ -1095,6 +1125,138 @@ body {
   <p style="color: #ff00ff; font-weight: bold; font-size: 1.2rem;">$200 - $5,000+/month</p>
 </section>
 
+<section class="content-section" id="ai-video">
+  <h2>🎥 AI Video Creation</h2>
+  <span class="skill-badge">⭐ Beginner</span> <span class="time-badge">⏱️ 1-7 days to first video</span>
+  <p>Create AI-generated videos for social media, ads, and content. No cameras, actors, or editing skills needed.</p>
+  
+  <h3>🛠️ Free Tools</h3>
+  <ul class="tools-list">
+    <li><a href="https://pika.art" target="_blank">Pika</a> - AI video generation</li>
+    <li><a href="https://runwayml.com" target="_blank">Runway Gen-3</a> - Video creation</li>
+    <li><a href="https://www.kaiber.ai" target="_blank">Kaiber</a> - AI video storytelling</li>
+    <li><a href="https://lumalabs.ai/dream-machine" target="_blank">Luma Dream Machine</a> - Photorealistic video</li>
+  </ul>
+  
+  <h3>📋 What to Create</h3>
+  <ol style="color: #00ff00;">
+    <li><strong>Social Media Ads:</strong> Quick promotional videos</li>
+    <li><strong>Explainer Videos:</strong> Product demos, tutorials</li>
+    <li><strong>Short Films:</strong> Creative AI-generated content</li>
+    <li><strong>Music Videos:</strong> AI visuals for songs</li>
+  </ol>
+  
+  <h3>💡 Success Tips</h3>
+  <ul style="color: #ffff00;">
+    <li>Create templates clients can customize</li>
+    <li>Offer "faceless" content for influencers</li>
+    <li>Combine multiple AI tools for better results</li>
+  </ul>
+  
+  <h3>💰 Income Potential</h3>
+  <p style="color: #ff00ff; font-weight: bold; font-size: 1.2rem;">$500 - $10,000+/month</p>
+</section>
+
+<section class="content-section" id="ai-book">
+  <h2>📖 AI Book Publishing</h2>
+  <span class="skill-badge">⭐ Beginner</span> <span class="time-badge">⏱️ 1-4 weeks to publish</span>
+  <p>Write, design, and publish books with AI assistance. Sell on Amazon Kindle, Audible, and more.</p>
+  
+  <h3>🛠️ Free Tools</h3>
+  <ul class="tools-list">
+    <li><a href="https://chat.openai.com" target="_blank">ChatGPT 4o</a> - Writing assistance</li>
+    <li><a href="https://claude.ai" target="_blank">Claude 3.5 Sonnet</a> - Long-form content</li>
+    <li><a href="https://canva.com" target="_blank">Canva AI</a> - Book covers</li>
+    <li><a href="https://kdp.amazon.com" target="_blank">Amazon KDP</a> - Free publishing</li>
+  </ul>
+  
+  <h3>📋 Best-Selling Genres</h3>
+  <ol style="color: #00ff00;">
+    <li><strong>Low-Content:</strong> Journals, planners, notebooks</li>
+    <li><strong>Children's Books:</strong> AI illustrations + text</li>
+    <li><strong>Self-Help:</strong> Productivity, motivation</li>
+    <li><strong>Business:</strong> Niche how-to guides</li>
+    <li><strong>Trivia/Quiz:</strong> Puzzle books</li>
+  </ol>
+  
+  <h3>💡 Success Tips</h3>
+  <ul style="color: #ffff00;">
+    <li>Start with low-content books (fast to create)</li>
+    <li>Use AI for first draft, then heavily edit</li>
+    <li>Create series to build repeat buyers</li>
+  </ul>
+  
+  <h3>💰 Income Potential</h3>
+  <p style="color: #ff00ff; font-weight: bold; font-size: 1.2rem;">$100 - $10,000+/month (passive)</p>
+</section>
+
+<section class="content-section" id="ai-tiktok">
+  <h2>📱 AI TikTok/Shorts</h2>
+  <span class="skill-badge">⭐ Beginner</span> <span class="time-badge">⏱️ 1-4 weeks to grow</span>
+  <p>Create faceless viral content for TikTok, Reels, and YouTube Shorts. Build massive audiences and monetize.</p>
+  
+  <h3>🛠️ Free Tools</h3>
+  <ul class="tools-list">
+    <li><a href="https://www.udio.com" target="_blank">Udio</a> - AI music & sound</li>
+    <li><a href="https://pika.art" target="_blank">Pika</a> - Short video clips</li>
+    <li><a href="https://canva.com" target="_blank">Canva</a> - Thumbnails & edits</li>
+    <li><a href="https://elevenlabs.io" target="_blank">ElevenLabs</a> - Voiceovers</li>
+  </ul>
+  
+  <h3>📋 Viral Content Types</h3>
+  <ol style="color: #00ff00;">
+    <li><strong>AI Movies:</strong> Short films from pics</li>
+    <li><strong>Life Hacks:</strong> Educational tips</li>
+    <li><strong>Storytime:</strong> Reddit stories animated</li>
+    <li><strong>ASMR/Sleep:</strong> Relaxing content</li>
+    <li><strong>Motivation:</strong> AI-generated speeches</li>
+  </ol>
+  
+  <h3>💡 Success Tips</h3>
+  <ul style="color: #ffff00;">
+    <li>Post 3-5x daily for maximum reach</li>
+    <li>Hook viewers in first 1 second</li>
+    <li>Use trending sounds and hashtags</li>
+    <li>Monetize with brand deals + creator fund</li>
+  </ul>
+  
+  <h3>💰 Income Potential</h3>
+  <p style="color: #ff00ff; font-weight: bold; font-size: 1.2rem;">$100 - $10,000+/month</p>
+</section>
+
+<section class="content-section" id="ai-saas">
+  <h2>🚀 AI SaaS Products</h2>
+  <span class="skill-badge">⭐⭐⭐ Advanced</span> <span class="time-badge">⏱️ 1-3 months to launch</span>
+  <p>Build and sell AI-powered software tools. Create no-code or low-code solutions for businesses.</p>
+  
+  <h3>🛠️ Free Tools</h3>
+  <ul class="tools-list">
+    <li><a href="https://cursor.sh" target="_blank">Cursor</a> - AI code editor</li>
+    <li><a href="https://github.com/features/copilot" target="_blank">GitHub Copilot</a> - Code assistant</li>
+    <li><a href="https://bubble.io" target="_blank">Bubble</a> - No-code builder</li>
+    <li><a href="https://streamlit.io" target="_blank">Streamlit</a> - Data apps</li>
+  </ul>
+  
+  <h3>📋 Product Ideas</h3>
+  <ol style="color: #00ff00;">
+    <li><strong>AI Content Detector:</strong> Identify AI-written text</li>
+    <li><strong>Image Tools:</strong> Background removal, enhancement</li>
+    <li><strong>Chatbot as Service:</strong> Custom bots for businesses</li>
+    <li><strong>Data Analysis:</strong> AI-powered dashboards</li>
+    <li><strong>SEO Tools:</strong> Content optimization</li>
+  </ol>
+  
+  <h3>💡 Success Tips</h3>
+  <ul style="color: #ffff00;">
+    <li>Start with a free MVP, add paid features</li>
+    <li>Solve one specific problem really well</li>
+    <li>Use AI APIs (OpenAI, Anthropic) for core features</li>
+  </ul>
+  
+  <h3>💰 Income Potential</h3>
+  <p style="color: #ff00ff; font-weight: bold; font-size: 1.2rem;">$1,000 - $100,000+/month</p>
+</section>
+
 <section class="content-section" id="sample-prompts">
   <div class="star-divider">♦ ♦ COPY & PASTE THESE PROMPTS ♦ ♦</div>
   <h2 style="background: linear-gradient(90deg, #ff0000, #ff8800, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">📋 SAMPLE PROMPTS TO GET STARTED</h2>
@@ -1194,7 +1356,7 @@ Each email should be 150-200 words, conversational, and include a clear CTA.</pr
   
   <p style="color: #ff00ff;">★ THANK YOU FOR VISITING! PLEASE COME BACK AGAIN! ★</p>
   <div class="visitor-counter">
-    👁️ HIT COUNT: <span style="color: #00ff00;">1</span><span style="color: #ffff00;">2</span><span style="color: #00ffff;">3</span><span style="color: #ff00ff;">4</span><span style="color: #ff0000;">5</span><span style="color: #00ff00;">6</span><span style="color: #ffff00;">7</span> 👁️
+    👁️ HIT COUNT: <span style="color: #00ff00;">8</span><span style="color: #ffff00;">4</span><span style="color: #00ffff;">2</span><span style="color: #ff00ff;">9</span><span style="color: #ff0000;">1</span><span style="color: #00ff00;">5</span><span style="color: #ffff00;">6</span> 👁️
   </div>
   
   <p style="color: #666; margin-top: 20px; font-size: 0.8rem;">© 1996-2026 CLOUDFRONT INC. | BEST VIEWED WITH NETSCAPE NAVIGATOR | MADE WITH ☕ AND 💾</p>
