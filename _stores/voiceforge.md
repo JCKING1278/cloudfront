@@ -2,7 +2,7 @@
 layout: store
 name: VoiceForge Pro
 tagline: Clone your voice. Scale your content.
-website: https://elevenlabs.io
+website: https://speechify.com
 email: audio@voiceforge.pro
 description: Clone any voice in 30 seconds. Generate endless podcasts, audiobooks, and narration. Perfect for content creators and authors.
 image: voiceforge.svg

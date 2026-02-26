@@ -2,7 +2,7 @@
 layout: store
 name: QuantEdge AI
 tagline: AI trading algorithms that perform
-website: https://quantedge.ai
+website: https://www.tradingview.com
 email: investors@quantedge.ai
 description: Institutional-grade AI trading bots for retail investors. Real-time execution, built-in risk management, and portfolio optimization.
 image: quantedge.svg

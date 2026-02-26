@@ -2,7 +2,7 @@
 layout: store
 name: AgentFlow AI
 tagline: Autonomous AI agents for your business
-website: https://claude.ai
+website: https://chat.openai.com
 email: founders@agentflow.ai
 description: Deploy custom AI agents that handle customer support, sales, and operations 24/7. Fully autonomous, continuously learning, ROI-positive from day one.
 image: agentflow.svg

@@ -2,7 +2,7 @@
 layout: store
 name: Persona AI Code
 tagline: Your AI programming partner
-website: https://cursor.sh
+website: https://github.com/features/copilot
 email: dev@personaai.co
 description: Write code faster with AI. Get suggestions, debug errors, and learn new languages - all for free.
 image: code.svg

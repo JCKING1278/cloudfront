@@ -2,7 +2,7 @@
 layout: store
 name: Persona AI Images
 tagline: Generate stunning images from text
-website: https://leonardo.ai
+website: https://www.bing.com/create
 email: art@personaai.co
 description: Create professional images, graphics, and artwork from text descriptions. Unlimited generations, full commercial rights.
 image: images.svg
