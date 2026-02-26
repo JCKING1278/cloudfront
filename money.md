@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Make Money with AI
+permalink: /money.html
 ---
 
 <style>
