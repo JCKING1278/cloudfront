@@ -2,7 +2,7 @@
 layout: store
 name: Persona AI Studio
 tagline: Create posts. Write captions. Generate hashtags.
-website: https://studio.personaai.co
+website: https://canva.com
 email: create@personaai.co
 description: Your all-in-one content creation companion. Generate posts, captions, hashtags, and content ideas instantly.
 image: studio.svg

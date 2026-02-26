@@ -2,7 +2,7 @@
 layout: store
 name: Persona AI
 tagline: Create AI influencers. Build your audience. Get paid.
-website: https://personaai.co
+website: https://character.ai
 email: creators@personaai.co
 description: Design hyper-realistic AI influencers that post, engage, and monetize across TikTok, Instagram, and YouTube. 100M+ followers generated for clients.
 image: personaai.svg

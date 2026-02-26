@@ -2,7 +2,7 @@
 layout: store
 name: AutoScale Labs
 tagline: AI automation agency in a box
-website: https://autoscale.labs
+website: https://zapier.com
 email: partners@autoscale.labs
 description: We build custom AI workflows that automate your entire business. From lead generation to invoicing - if it's repeatable, we automate it.
 image: autoscale.svg

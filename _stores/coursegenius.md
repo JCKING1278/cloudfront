@@ -2,7 +2,7 @@
 layout: store
 name: CourseGenius AI
 tagline: Build an AI course business in 24 hours
-website: https://coursegenius.ai
+website: https://coursera.org
 email: teach@coursegenius.ai
 description: Upload your knowledge, get a complete online course with AI-generated slides, quizzes, and voiceovers. Monetize with built-in checkout.
 image: coursegenius.svg

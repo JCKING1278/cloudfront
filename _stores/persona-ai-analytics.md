@@ -2,7 +2,7 @@
 layout: store
 name: Persona AI Analytics
 tagline: Track real engagement. Detect fake followers.
-website: https://analytics.personaai.co
+website: https://socialblade.com
 email: insights@personaai.co
 description: The only analytics platform that tells you what's real. Track engagement, detect bots, measure true ROI.
 image: analytics.svg
