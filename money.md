@@ -430,10 +430,10 @@ body {
       <td><a href="https://www.mturk.com/" target="_blank" style="color: #00FF00;">JOIN FREE</a></td>
     </tr>
     <tr>
-      <td>🎯 FeaturePoints</td>
-      <td>App trials, surveys</td>
-      <td>$50-200/mo</td>
-      <td><a href="https://featurepoints.com/" target="_blank" style="color: #00FF00;">JOIN FREE</a></td>
+      <td>🎯 Freecash</td>
+      <td>Surveys, offer walls, gaming</td>
+      <td>$50-500/mo</td>
+      <td><a href="https://www.freecash.com/" target="_blank" style="color: #00FF00;">JOIN FREE</a></td>
     </tr>
     <tr>
       <td>📦 TaskRabbit</td>
@@ -576,6 +576,51 @@ body {
     <span class="time-profit">⏱️ 1-3 months</span>
     <span class="visit">LEARN MORE &rarr;</span>
   </a>
+
+  <a href="#ai-voiceover" class="store-card">
+    <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=200&h=150&fit=crop" alt="Voiceover" class="tool-image">
+    <span class="skill-level">⭐ Beginner</span>
+    <h2>🎙️ AI Voiceover</h2>
+    <p class="tagline">Create AI-generated voiceovers for videos</p>
+    <span class="time-profit">⏱️ 1-3 days</span>
+    <span class="visit">LEARN MORE &rarr;</span>
+  </a>
+
+  <a href="#ai-video" class="store-card">
+    <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?w=200&h=150&fit=crop" alt="Video" class="tool-image">
+    <span class="skill-level">⭐ Beginner</span>
+    <h2>🎥 AI Video Creation</h2>
+    <p class="tagline">AI-powered short videos & faceless content</p>
+    <span class="time-profit">⏱️ 1-7 days</span>
+    <span class="visit">LEARN MORE &rarr;</span>
+  </a>
+
+  <a href="#ai-book" class="store-card">
+    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=200&h=150&fit=crop" alt="Books" class="tool-image">
+    <span class="skill-level">⭐ Beginner</span>
+    <h2>📖 AI Book Publishing</h2>
+    <p class="tagline">Write & publish books with AI assistance</p>
+    <span class="time-profit">⏱️ 1-4 weeks</span>
+    <span class="visit">LEARN MORE &rarr;</span>
+  </a>
+
+  <a href="#ai-tiktok" class="store-card">
+    <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=200&h=150&fit=crop" alt="TikTok" class="tool-image">
+    <span class="skill-level">⭐ Beginner</span>
+    <h2>📱 AI TikTok/Shorts</h2>
+    <p class="tagline">Create faceless viral short-form content</p>
+    <span class="time-profit">⏱️ 1-4 weeks</span>
+    <span class="visit">LEARN MORE &rarr;</span>
+  </a>
+
+  <a href="#ai-saas" class="store-card">
+    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&h=150&fit=crop" alt="SaaS" class="tool-image">
+    <span class="skill-level">⭐⭐⭐ Advanced</span>
+    <h2>🚀 AI SaaS Products</h2>
+    <p class="tagline">Build & sell AI-powered software tools</p>
+    <span class="time-profit">⏱️ 1-3 months</span>
+    <span class="visit">LEARN MORE &rarr;</span>
+  </a>
 </section>
 
 <section class="content-section" style="background: #000; border: 4px double #ffff00;">
@@ -671,9 +716,10 @@ body {
   
   <h3>🛠️ Free Tools</h3>
   <ul class="tools-list">
-    <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - AI writing assistant</li>
-    <li><a href="https://claude.ai" target="_blank">Claude</a> - Long-form content</li>
-    <li><a href="https://gemini.google.com" target="_blank">Gemini</a> - Research & writing</li>
+    <li><a href="https://chat.openai.com" target="_blank">ChatGPT 4o</a> - AI writing assistant (free)</li>
+    <li><a href="https://claude.ai" target="_blank">Claude 3.5 Sonnet</a> - Long-form content</li>
+    <li><a href="https://gemini.google.com" target="_blank">Gemini Advanced</a> - Research & writing</li>
+    <li><a href="https://copilot.microsoft.com" target="_blank">Microsoft Copilot</a> - Free GPT-4</li>
   </ul>
   
   <h3>📋 How to Start</h3>
@@ -702,9 +748,10 @@ body {
   
   <h3>🛠️ Free Tools</h3>
   <ul class="tools-list">
-    <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Content & coding</li>
-    <li><a href="https://www.bing.com/create" target="_blank">Bing Image Creator</a> - AI images</li>
-    <li><a href="https://canva.com" target="_blank">Canva</a> - Design</li>
+    <li><a href="https://chat.openai.com" target="_blank">ChatGPT 4o</a> - Content & coding</li>
+    <li><a href="https://copilot.microsoft.com/design" target="_blank">Microsoft Designer</a> - AI images (formerly Bing)</li>
+    <li><a href="https://canva.com" target="_blank">Canva AI</a> - Design with AI</li>
+    <li><a href="https://gamma.app" target="_blank">Gamma</a> - AI presentations & websites</li>
   </ul>
   
   <h3>📋 Services to Offer</h3>
@@ -733,9 +780,10 @@ body {
   
   <h3>🛠️ Free Tools</h3>
   <ul class="tools-list">
-    <li><a href="https://www.bing.com/create" target="_blank">Bing Image Creator</a> - Product images</li>
-    <li><a href="https://canva.com" target="_blank">Canva</a> - Listings & branding</li>
-    <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Product descriptions</li>
+    <li><a href="https://copilot.microsoft.com/design" target="_blank">Microsoft Designer</a> - Product images</li>
+    <li><a href="https://canva.com" target="_blank">Canva AI</a> - Listings & branding</li>
+    <li><a href="https://chat.openai.com" target="_blank">ChatGPT 4o</a> - Product descriptions</li>
+    <li><a href="https://leonardo.ai" target="_blank">Leonardo.ai</a> - Free AI art generations</li>
   </ul>
   
   <h3>📋 Best Niches to Start</h3>
@@ -764,9 +812,11 @@ body {
   
   <h3>🛠️ Free Tools</h3>
   <ul class="tools-list">
-    <li><a href="https://runwayml.com" target="_blank">RunwayML</a> - AI video generation</li>
-    <li><a href="https://www.udio.com" target="_blank">Udio</a> - AI music</li>
-    <li><a href="https://speechify.com" target="_blank">Speechify</a> - Voice generation</li>
+    <li><a href="https://runwayml.com" target="_blank">Runway Gen-3</a> - AI video generation</li>
+    <li><a href="https://www.udio.com" target="_blank">Udio</a> - AI music & sound effects</li>
+    <li><a href="https://elevenlabs.io" target="_blank">ElevenLabs</a> - AI voice cloning (free tier)</li>
+    <li><a href="https://www.descript.com" target="_blank">Descript</a> - Video editing & captions</li>
+    <li><a href="https://pika.art" target="_blank">Pika</a> - AI video creation</li>
   </ul>
   
   <h3>📋 Best Niches</h3>
@@ -795,9 +845,10 @@ body {
   
   <h3>🛠️ Free Tools</h3>
   <ul class="tools-list">
-    <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Test prompts</li>
-    <li><a href="https://claude.ai" target="_blank">Claude</a> - Complex prompts</li>
+    <li><a href="https://chat.openai.com" target="_blank">ChatGPT 4o</a> - Test prompts</li>
+    <li><a href="https://claude.ai" target="_blank">Claude 3.5 Sonnet</a> - Complex prompts</li>
     <li><a href="https://gumroad.com" target="_blank">Gumroad</a> - Sell prompts</li>
+    <li><a href="https://promptbase.com" target="_blank">PromptBase</a> - Prompt marketplace</li>
   </ul>
   
   <h3>📋 How to Earn</h3>
@@ -826,9 +877,10 @@ body {
   
   <h3>🛠️ Free Tools</h3>
   <ul class="tools-list">
-    <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Course outline</li>
-    <li><a href="https://canva.com" target="_blank">Canva</a> - Slides & visuals</li>
-    <li><a href="https://coursera.org" target="_blank">Coursera</a> - Host course</li>
+    <li><a href="https://chat.openai.com" target="_blank">ChatGPT 4o</a> - Course outline</li>
+    <li><a href="https://canva.com" target="_blank">Canva AI</a> - Slides & visuals</li>
+    <li><a href="https://www.udemy.com/" target="_blank">Udemy</a> - Host course</li>
+    <li><a href="https://www.loom.com/" target="_blank">Loom</a> - Record video lessons</li>
   </ul>
   
   <h3>📋 Course Topics That Sell</h3>
@@ -857,11 +909,13 @@ body {
   
   <h3>🛠️ Top Affiliate Programs</h3>
   <ul class="tools-list">
-    <li><a href="https://openai.com/chatgpt" target="_blank">ChatGPT Plus</a> - 20% recurring</li>
-    <li><a href="https://anthropic.com/claude" target="_blank">Claude</a> - 20% recurring</li>
+    <li><a href="https://openai.com/chatgpt-plus" target="_blank">ChatGPT Plus</a> - 20% recurring</li>
+    <li><a href="https://www.anthropic.com/claude-pro" target="_blank">Claude Pro</a> - 20% recurring</li>
     <li><a href="https://canva.com/affiliates" target="_blank">Canva</a> - 50% first payment</li>
     <li><a href="https://notion.so/affiliates" target="_blank">Notion AI</a> - 50% first year</li>
-    <li><a href="https://jasper.ai/affiliates" target="_blank">Jasper</a> - 30% recurring</li>
+    <li><a href="https://www.jasper.ai/affiliate" target="_blank">Jasper</a> - 30% recurring</li>
+    <li><a href="https://cursor.sh/affiliate" target="_blank">Cursor</a> - 20% recurring</li>
+    <li><a href="https://elevenlabs.io/affiliates" target="_blank">ElevenLabs</a> - 25% recurring</li>
   </ul>
   
   <h3>📋 How to Start</h3>
@@ -892,7 +946,8 @@ body {
   <ul class="tools-list">
     <li><a href="https://otter.ai" target="_blank">Otter.ai</a> - Free transcription</li>
     <li><a href="https://www.descript.com" target="_blank">Descript</a> - Video transcription</li>
-    <li><a href="https://speechify.com" target="_blank">Speechify</a> - Audio transcription</li>
+    <li><a href="https://elevenlabs.io" target="_blank">Whisper API</a> - OpenAI transcription</li>
+    <li><a href="https://www.rev.com" target="_blank">Rev</a> - Transcription gigs</li>
   </ul>
   
   <h3>📋 How It Works</h3>
@@ -922,9 +977,10 @@ body {
   
   <h3>🛠️ Free Tools</h3>
   <ul class="tools-list">
-    <li><a href="https://www.bing.com/create" target="_blank">Bing Image Creator</a> - DALL-E 3</li>
+    <li><a href="https://copilot.microsoft.com/design" target="_blank">Microsoft Designer</a> - DALL-E 3</li>
     <li><a href="https://leonardo.ai" target="_blank">Leonardo.ai</a> - Free generations</li>
-    <li><a href="https://canva.com" target="_blank">Canva</a> - Edit & package</li>
+    <li><a href="https://canva.com" target="_blank">Canva AI</a> - Edit & package</li>
+    <li><a href="https://www.midjourney.com" target="_blank">Midjourney</a> - Premium AI art</li>
   </ul>
   
   <h3>📋 What to Sell</h3>
@@ -953,9 +1009,10 @@ body {
   
   <h3>🛠️ Free Tools</h3>
   <ul class="tools-list">
-    <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Build knowledge base</li>
-    <li><a href="https://botpress.com" target="_blank">Botpress</a> - Visual builder</li>
+    <li><a href="https://chat.openai.com/gpts" target="_blank">GPTs</a> - Custom chatbots</li>
+    <li><a href="https://www.botpress.com" target="_blank">Botpress</a> - Visual builder</li>
     <li><a href="https://manychat.com" target="_blank">ManyChat</a> - Social chatbots</li>
+    <li><a href="https://cohere.com" target="_blank">Cohere</a> - Enterprise chatbots</li>
   </ul>
   
   <h3>📋 Services to Offer</h3>
@@ -1008,35 +1065,27 @@ body {
   <p style="color: #ff00ff; font-weight: bold; font-size: 1.2rem;">$500 - $4,000+/month</p>
 </section>
 
-<section class="content-section" id="ai-consulting">
-  <h2>📊 AI Consulting</h2>
-  <span class="skill-badge">⭐⭐⭐ Advanced</span> <span class="time-badge">⏱️ 1-3 months to first client</span>
-  <p>Help businesses understand and implement AI solutions.</p>
+<section class="content-section" id="ai-voiceover">
+  <h2>🎙️ AI Voiceover</h2>
+  <span class="skill-badge">⭐ Beginner</span> <span class="time-badge">⏱️ 1-3 days to first $</span>
+  <p>Create AI-generated voiceovers for videos, podcasts, audiobooks, and commercials. No recording equipment needed!</p>
   
-  <h3>🛠️ Free Tools to Master</h3>
+  <h3>🛠️ Free Tools</h3>
   <ul class="tools-list">
-    <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Research & strategy</li>
-    <li><a href="https://claude.ai" target="_blank">Claude</a> - Complex analysis</li>
-    <li><a href="https://www.microsoft.com/en-us/microsoft-copilot" target="_blank">Microsoft Copilot</a> - Business tools</li>
+    <li><a href="https://elevenlabs.io" target="_blank">ElevenLabs</a> - Premium AI voices</li>
+    <li><a href="https://play.ht" target="_blank">Play.ht</a> - Voice generation</li>
+    <li><a href="https://murf.ai" target="_blank">Murf AI</a> - Studio-quality voices</li>
   </ul>
   
-  <h3>📋 Services to Offer</h3>
+  <h3>📋 How to Earn</h3>
   <ol style="color: #00ff00;">
-    <li><strong>AI Strategy:</strong> Roadmap for adoption</li>
-    <li><strong>Tool Selection:</strong> Recommend right tools</li>
-    <li><strong>Employee Training:</strong> Teach teams</li>
-    <li><strong>Process Automation:</strong> Find inefficiencies</li>
+    <li><strong>Create samples:</strong> Make demo voiceovers</li>
+    <li><strong>Freelance:</strong> Offer on Fiverr, Upwork</li>
+    <li><strong>YouTube:</strong> Create faceless videos</li>
   </ol>
   
-  <h3>💡 Success Tips</h3>
-  <ul style="color: #ffff00;">
-    <li>Build personal brand on LinkedIn</li>
-    <li>Create case studies from own experience</li>
-    <li>Start with free audits, convert to paid</li>
-  </ul>
-  
   <h3>💰 Income Potential</h3>
-  <p style="color: #ff00ff; font-weight: bold; font-size: 1.2rem;">$5,000 - $50,000+/project</p>
+  <p style="color: #ff00ff; font-weight: bold; font-size: 1.2rem;">$200 - $5,000+/month</p>
 </section>
 
 <section class="content-section" id="sample-prompts">
