@@ -2,7 +2,7 @@
 layout: store
 name: BeatMachine AI
 tagline: AI-generated music that tops the charts
-website: https://audiotrimmer.com/online-music-generator/
+website: https://www.udio.com
 email: artists@beatmachine.ai
 description: Create chart-ready tracks in any genre. Royalties go to you. Already placed 500+ songs on Spotify and TikTok trending playlists.
 image: beatmachine.svg
